@@ -41,23 +41,24 @@ body {
   column-gap: 50px;
   color: #fff;
   border-bottom: 1px solid rgba(235, 235, 240, 0.2);
-  transition: background-color 0.3s;
+  transition: background-color 0.3s, height 0.3s;
 }
 
 .header__navbar--light {
   background-color: #fff;
   color: #292d33;
-  
+  border-bottom: none;
+  height: 74px;
 }
 
 .header__navbar--light .header__logo-path {
-fill:  #292d33;
-  
+  fill: #292d33;
 }
 
-
 .header__logo {
-  padding: 25px 50px;
+  display: flex;
+  align-items: center;
+  padding-inline: 50px;
   border-right: 1px solid rgba(235, 235, 240, 0.2);
   height: 100%;
 }
