@@ -47,7 +47,14 @@ body {
 .header__navbar--light {
   background-color: #fff;
   color: #292d33;
+  
 }
+
+.header__navbar--light .header__logo-path {
+fill:  #292d33;
+  
+}
+
 
 .header__logo {
   padding: 25px 50px;
@@ -163,6 +170,7 @@ body {
 }
 
 .section {
+  padding-inline: 1px;
   margin-block: 150px;
 }
 
