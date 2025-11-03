@@ -207,7 +207,10 @@ body {
 
 .steps__item {
   max-width: 330px;
-  padding-right: 32px;
+}
+
+.steps__content {
+   padding-right: 32px;
 }
 
 .steps__num {
