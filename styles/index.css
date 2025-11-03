@@ -1,7 +1,6 @@
 body {
   font-family: 'Noto Sans', sans-serif;
   font-size: 16px;
-  /* overflow: hidden; */
 }
 
 .container {
@@ -24,7 +23,7 @@ body {
   content: '';
   position: absolute;
   inset: 0;
-  background-color: rgba(41, 45, 51, 0.6);
+  background-color: rgba(41, 45, 51, 0.8);
   opacity: 0.6;
   width: 100%;
   height: 100%;
@@ -65,7 +64,7 @@ body {
 
 .header__navigation-list {
   display: flex;
-  column-gap: 50px;
+  column-gap: 53px;
   flex-basis: 100%;
 }
 
@@ -103,14 +102,20 @@ body {
   color: inherit;
   font-size: 16px;
   line-height: 1.6;
-  padding: 25px 60px;
+  padding: 25px 50px;
   text-decoration: none;
   color: #fff;
   cursor: pointer;
+  letter-spacing: 0.7px;
+}
+
+.header__nav-button {
+  height: 100%;
 }
 
 .header__button {
-  height: 100%;
+  padding: 25px 60px;
+  letter-spacing: 0.5px;
 }
 
 .seporator {
@@ -122,7 +127,7 @@ body {
 .header__content {
   position: relative;
   z-index: 1;
-  padding-top: 150px;
+  padding-top: 243px;
   color: #fff;
   margin-bottom: 100px;
 }
@@ -133,7 +138,7 @@ body {
   font-weight: 400;
   font-size: 80px;
   line-height: 1.2;
-  margin-block: 30px;
+  margin-block: 23px 39px;
 }
 
 .header__text {
@@ -141,7 +146,8 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.6;
-  margin-bottom: 14px;
+  margin-bottom: 50px;
+  word-spacing: 1.2px;
 }
 
 .header__features-list {
@@ -160,6 +166,7 @@ body {
   row-gap: 20px;
   padding: 30px 50px;
   border: 1px solid rgba(235, 235, 240, 0.2);
+  max-width: 288px;
 }
 
 .header__features-item:not(:last-child) {
@@ -171,7 +178,7 @@ body {
 }
 
 .section {
-  padding-inline: 1px;
+  padding-inline: 10px;
   margin-block: 150px;
 }
 
@@ -181,7 +188,7 @@ body {
   font-size: 60px;
   line-height: 1.2;
   color: #292d33;
-  margin-block: 30px 50px;
+  margin-block: 24px 50px;
 }
 
 .steps__title {
@@ -200,15 +207,14 @@ body {
 
 .steps__item {
   max-width: 330px;
+  padding-right: 32px;
 }
 
 .steps__num {
   display: flex;
   align-items: center;
   column-gap: 30px;
-  /* position: relative; */
-  /* display: inline-block; */
-  margin-bottom: 30px;
+  margin-bottom: 36px;
   font-family: 'Bebas Neue';
   font-size: 48px;
   line-height: 1.2;
@@ -232,7 +238,7 @@ body {
 .steps__link {
   display: flex;
   align-items: center;
-  column-gap: 30px;
+  column-gap: 24px;
   text-decoration: none;
   font-weight: 600;
   font-size: 16px;
