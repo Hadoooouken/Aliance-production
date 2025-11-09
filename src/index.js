@@ -9,8 +9,6 @@ const lightModeOn = () => {
     logo.href.baseVal = './images/sprites.svg#logo-dark'
 }
 
-
-
 const lightModeOff = () => {
     navbar.classList.remove('header__navbar--light')
     logo.href.baseVal = './images/sprites.svg#logo-light'
@@ -26,7 +24,7 @@ const openMenu = () => {
 const closeMenu = () => {
     document.body.classList.remove('is-lock')
     mobileOverlay.classList.remove('is-open')
-     burgerButton.classList.remove('close-menu')
+    burgerButton.classList.remove('close-menu')
     lightModeOff()
 }
 
@@ -38,6 +36,32 @@ burgerButton.addEventListener('click', () => {
     mobileOverlay.classList.contains('is-open') ? closeMenu() : openMenu()
 })
 
+const swiper = new Swiper('.swiper', {
+
+    slidesPerView: 1,
+    spaceBetween: 0,
+    breakpoints: {
+        576: {
+            slidesPerView: 2,
+        },
+        768: {
+            slidesPerView: 3,
+        },
+        1024: {
+            slidesPerView: 4,
+        },
+        1200: {
+            slidesPerView: 5,
+        },
+    },
+    speed: 400,
+    autoHeight: false,
+    loop: false,
+    navigation: {
+        nextEl: '.slider-button-next',
+        prevEl: '.slider-button-prev',
+    },
+});
 
 
 
