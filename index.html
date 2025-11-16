@@ -66,9 +66,11 @@
         <nav class="header__navbar">
             <button class="header__burger-button burger-button" type="button" aria-label="Open menu" title="Open menu"
                 data-js-header-burger-button>
-                <span class="burger-button__line"></span>
-                <span class="burger-button__line"></span>
-                <span class="burger-button__line"></span>
+                <span class="burger-button__wrapper">
+                    <span class="burger-button__line"></span>
+                    <span class="burger-button__line"></span>
+                    <span class="burger-button__line"></span>
+                </span>
             </button>
             <a href="./" class="logo header__logo">
                 <svg class="logo__svg" width="140" height="44">
@@ -110,48 +112,48 @@
 
             <div class="swiper">
                 <!-- Additional required wrapper -->
-                <ul class="swiper-wrapper header__features-list">
+                <div class="swiper-wrapper header__features-list">
                     <!-- Slides -->
-                    <li class="swiper-slide header__features-item">
-                        <svg class="logo__svg" width="36" height="36">
+                    <div class="swiper-slide header__features-item">
+                        <svg class="header__features-svg" width="36" height="36">
                             <use href="./images/sprites.svg#1"></use>
                         </svg>
                         <p class="header__features-text">Непрерывная работа c 2017 года</p>
-                    </li>
-                    <li class="swiper-slide header__features-item">
-                        <svg class="logo__svg" width="36" height="36">
+                    </div>
+                    <div class="swiper-slide header__features-item">
+                        <svg class="header__features-svg" width="36" height="36">
                             <use href="./images/sprites.svg#2"></use>
                         </svg>
                         <p class="header__features-text">Вся продукция сертифицирована</p>
-                    </li>
-                    <li class="swiper-slide header__features-item">
-                        <svg class="logo__svg" width="36" height="36">
+                    </div>
+                    <div class="swiper-slide header__features-item">
+                        <svg class="header__features-svg" width="36" height="36">
                             <use href="./images/sprites.svg#3"></use>
                         </svg>
                         <p class="header__features-text">Контроль качества на всех этапах</p>
-                    </li>
-                    <li class="swiper-slide header__features-item">
-                        <svg class="logo__svg" width="36" height="36">
+                    </div>
+                    <div class="swiper-slide header__features-item">
+                        <svg class="header__features-svg" width="36" height="36">
                             <use href="./images/sprites.svg#4"></use>
                         </svg>
                         <p class="header__features-text">Возможны поставки по всей России</p>
-                    </li>
-                    <li class="swiper-slide header__features-item">
-                        <svg class="logo__svg" width="36" height="36">
+                    </div>
+                    <div class="swiper-slide header__features-item">
+                        <svg class="header__features-svg" width="36" height="36">
                             <use href="./images/sprites.svg#5"></use>
                         </svg>
                         <p class="header__features-text">Оперативное производство</p>
-                    </li>
-                </ul>
+                    </div>
+                </div>
                 <!-- If we need navigation buttons -->
                 <div class="slider__buttons">
-                    <div class="slider-button-prev">     
-                        <svg  width="36" height="24">
+                    <div class="slider-button-prev">
+                        <svg width="36" height="24">
                             <use href="./images/sprites.svg#arrow-prev"></use>
                         </svg>
                     </div>
                     <div class="slider-button-next">
-                                 <svg  width="36" height="24">
+                        <svg width="36" height="24">
                             <use href="./images/sprites.svg#arrow-next"></use>
                         </svg>
                     </div>
@@ -162,43 +164,63 @@
     <main>
         <section class="section section--light">
             <div class="container">
-                <div class="seporator"></div>
-                <h2 class="section__title">схема работы</h2>
-                <ol class="steps__list">
-                    <li class="steps__item">
-                        <span class="steps__num">01</span>
-                        <div class="steps__content">
-                            <h3 class="steps__title">Знакомство</h3>
-                            <p class="steps__text">Безусловно, сплочённость команды профессионалов позволяет оценить
-                                значение форм воздействия.</p>
-                            <a href="./" class="steps__link">Оставить заявку</a>
+                <div class="steps__inner">
+                    <div class="seporator"></div>
+                    <h2 class="section__title">схема работы</h2>
+
+                    <div class="steps__list swiper__steps">
+                        <div class="swiper-wrapper">
+                            <div class="steps__item swiper-slide">
+                                <span class="steps__num">01</span>
+                                <div class="steps__content">
+                                    <h3 class="steps__title">Знакомство</h3>
+                                    <p class="steps__text">Безусловно, сплочённость команды профессионалов позволяет
+                                        оценить
+                                        значение форм воздействия.</p>
+                                    <a href="./" class="steps__link">Оставить заявку</a>
+                                </div>
+                            </div>
+                            <div class="steps__item swiper-slide">
+                                <span class="steps__num">02</span>
+                                <div class="steps__content">
+                                    <h3 class="steps__title">Заключение<br>договора</h3>
+                                    <p class="steps__text">Лишь интерактивные прототипы призваны к ответу.</p>
+                                </div>
+                            </div>
+                            <div class="steps__item swiper-slide">
+                                <span class="steps__num">03</span>
+                                <div class="steps__content">
+                                    <h3 class="steps__title">Производство</h3>
+                                    <p class="steps__text">А также стремящиеся вытеснить традиционное производство,
+                                        нанотехнологии
+                                        функционально разнесены на независимые элементы.</p>
+                                </div>
+                            </div>
+                            <div class="steps__item swiper-slide">
+                                <span class="steps__num">04</span>
+                                <div class="steps__content">
+                                    <h3 class="steps__title">Доставка</h3>
+                                    <p class="steps__text">В частности, экономическая повестка сегодняшнего дня говорит
+                                        о
+                                        возможностях приоритизации разума над эмоциями.</p>
+                                </div>
+                            </div>
                         </div>
-                    </li>
-                    <li class="steps__item">
-                        <span class="steps__num">02</span>
-                        <div class="steps__content">
-                            <h3 class="steps__title">Заключение<br>договора</h3>
-                            <p class="steps__text">Лишь интерактивные прототипы призваны к ответу.</p>
+                    </div>
+                    <!-- If we need navigation buttons -->
+                    <div class="slider__steps-buttons">
+                        <div class="slider__steps-button--prev">
+                            <svg width="30" height="20">
+                                <use href="./images/sprites.svg#arrow-prev"></use>
+                            </svg>
                         </div>
-                    </li>
-                    <li class="steps__item">
-                        <span class="steps__num">03</span>
-                        <div class="steps__content">
-                            <h3 class="steps__title">Производство</h3>
-                            <p class="steps__text">А также стремящиеся вытеснить традиционное производство,
-                                нанотехнологии
-                                функционально разнесены на независимые элементы.</p>
+                        <div class="slider__steps-button--next">
+                            <svg width="30" height="20">
+                                <use href="./images/sprites.svg#arrow-next"></use>
+                            </svg>
                         </div>
-                    </li>
-                    <li class="steps__item">
-                        <span class="steps__num">04</span>
-                        <div class="steps__content">
-                            <h3 class="steps__title">Доставка</h3>
-                            <p class="steps__text">В частности, экономическая повестка сегодняшнего дня говорит о
-                                возможностях приоритизации разума над эмоциями.</p>
-                        </div>
-                    </li>
-                </ol>
+                    </div>
+                </div>
             </div>
         </section>
     </main>

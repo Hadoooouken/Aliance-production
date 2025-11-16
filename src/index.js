@@ -38,7 +38,7 @@ burgerButton.addEventListener('click', () => {
 
 const swiper = new Swiper('.swiper', {
 
-    slidesPerView: 1,
+    slidesPerView: 'auto',
     spaceBetween: 0,
     breakpoints: {
         576: {
@@ -54,16 +54,28 @@ const swiper = new Swiper('.swiper', {
             slidesPerView: 5,
         },
     },
+
     speed: 400,
     autoHeight: false,
-    loop: false,
+    loop: true,
     navigation: {
         nextEl: '.slider-button-next',
         prevEl: '.slider-button-prev',
     },
 });
 
+const swiperSteps = new Swiper('.swiper__steps', {
 
+    slidesPerView: 'auto',
+    spaceBetween: 0,
+    speed: 400,
+    autoHeight: false,
+    loop: true,
+    navigation: {
+        nextEl: '.slider__steps-button--next',
+        prevEl: '.slider__steps-button--prev',
+    },
+});
 
 
 
