@@ -1,17 +1,21 @@
 const navbar = document.querySelector('.header__navbar')
-const logo = document.querySelector('.logo__svg use')
+const logoLight = document.querySelector('.logo__svg--light')
+const logoDark = document.querySelector('.logo__svg--dark')
+
 const burgerButton = document.querySelector('[data-js-header-burger-button]')
 const mobileOverlay = document.querySelector('[data-js-header-overlay]')
 
 
 const lightModeOn = () => {
     navbar.classList.add('header__navbar--light')
-    logo.href.baseVal = './images/sprites.svg#logo-dark'
+    logoLight.style.display = 'none'
+    logoDark.style.display = "block"
 }
 
 const lightModeOff = () => {
     navbar.classList.remove('header__navbar--light')
-    logo.href.baseVal = './images/sprites.svg#logo-light'
+    logoLight.style.display = 'block'
+    logoDark.style.display = "none"
 }
 
 const openMenu = () => {

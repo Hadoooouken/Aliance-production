@@ -61,6 +61,7 @@ body {
 .header__logo {
   display: flex;
   align-items: center;
+  flex-shrink: 0;
   padding-inline: 3.125rem;
   border-right: 1px solid rgba(235, 235, 240, 0.2);
   height: 100%;
@@ -99,8 +100,8 @@ body {
   height: 2.75rem;
 }
 
-.logo {
-  flex-shrink: 0;
+.logo__svg--dark {
+  display: none;
 }
 
 .button {
@@ -164,7 +165,7 @@ body {
   height: 1px;
 }
 
-.seporator {
+.separator {
   width: 9.375rem;
   height: 2px;
   background-color: #5c8ee5;
@@ -387,9 +388,9 @@ body.is-lock {
   color: #292d33;
 }
 
-.mobile__seporator {
+.mobile__separator {
   position: absolute;
-  top: 63%;
+  top: 59%;
   left: 0;
   width: 100%;
   margin: 0;
@@ -553,11 +554,11 @@ body.is-lock {
   }
 
   .close-menu .burger-button__line:nth-child(1) {
-    transform: rotate(45deg) translateY(4px);
+    transform: rotate(45deg) translateY(10px);
   }
 
   .close-menu .burger-button__line:nth-child(3) {
-    transform: rotate(-45deg) translateY(-4px);
+    transform: rotate(-45deg) translateY(-10px);
   }
 
   .section__title {
@@ -664,6 +665,14 @@ body.is-lock {
     align-self: flex-start;
   }
 
+  .close-menu .burger-button__line:nth-child(1) {
+    transform: rotate(45deg) translateY(4px);
+  }
+
+  .close-menu .burger-button__line:nth-child(3) {
+    transform: rotate(-45deg) translateY(-4px);
+  }
+
   .burger-button__line:nth-child(2) {
     width: 30%;
   }
@@ -674,7 +683,7 @@ body.is-lock {
     margin-bottom: 4.25rem;
   }
 
-  .seporator {
+  .separator {
     width: 8.5rem;
     height: 2px;
     background-color: #5c8ee5;
