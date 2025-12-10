@@ -510,6 +510,11 @@ body.is-lock {
   color: #5c8ee5;
 }
 
+.card__item--brands:hover .card__logo {
+  color: #5c8ee5;
+}
+
+
 .card__body {
   display: flex;
   flex-direction: column;
@@ -540,14 +545,10 @@ body.is-lock {
   align-self: flex-end;
 }
 
-.hhh {
+.card__logo {
   color: #828a99;
   width: 100%;
   height: 100%;
-}
-
-.hhh:hover {
-  color: #5c8ee6;
 }
 
 @media (max-width: 1700px) {
