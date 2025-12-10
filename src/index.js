@@ -5,6 +5,14 @@ const logoDark = document.querySelector('.logo__svg--dark')
 const burgerButton = document.querySelector('[data-js-header-burger-button]')
 const mobileOverlay = document.querySelector('[data-js-header-overlay]')
 
+window.addEventListener('resize', () => {
+    if (window.innerWidth > 992 && mobileOverlay.classList.contains('is-open')) {
+        closeMenu()
+    }
+
+});
+
+
 
 const lightModeOn = () => {
     navbar.classList.add('header__navbar--light')
@@ -71,7 +79,7 @@ const swiper = new Swiper('.swiper', {
 const swiperSteps = new Swiper('.swiper__steps', {
 
     slidesPerView: 'auto',
-    spaceBetween: 0,
+    spaceBetween: 30,
     speed: 400,
     autoHeight: false,
     loop: true,
