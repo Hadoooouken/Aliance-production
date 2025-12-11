@@ -152,6 +152,10 @@ body {
   font-weight: 600;
 }
 
+button:hover {
+  background-color: #4a79cc;
+}
+
 .header__nav-button {
   height: 100%;
 }
@@ -207,7 +211,7 @@ body {
   z-index: 1;
   padding-top: 15.1875rem;
   color: #fff;
-  margin-bottom: 6.25rem;
+  margin-block-end: 6.25rem;
   padding-inline: 0;
 }
 
@@ -225,7 +229,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.6;
-  margin-bottom: 3.125rem;
+  margin-block-end: 3.125rem;
   word-spacing: 1.2px;
 }
 
@@ -299,7 +303,7 @@ body {
   font-weight: 400;
   font-size: 28px;
   line-height: 1.6;
-  margin-bottom: 10px;
+  margin-block-end: 10px;
   color: #292d33;
 }
 
@@ -322,7 +326,7 @@ body {
   display: flex;
   align-items: center;
   column-gap: 30px;
-  margin-bottom: 36px;
+  margin-block-end: 36px;
   font-family: 'Bebas Neue';
   font-size: 48px;
   line-height: 1.2;
@@ -386,7 +390,7 @@ body.is-lock {
   font-size: 14px;
   line-height: 1.6;
   color: #292d33;
-  margin-bottom: 30px;
+  margin-block-end: 30px;
 }
 
 .mobile__menu-link {
@@ -423,7 +427,7 @@ body.is-lock {
 .mobile__separator {
   width: 100%;
   margin: 0;
-  margin-bottom: 30px;
+  margin-block-end: 30px;
   height: 0.0625rem;
   border-top: 1px solid #ebebf0;
   pointer-events: none;
@@ -491,15 +495,24 @@ body.is-lock {
   flex-direction: column;
   row-gap: 46px;
   justify-content: space-between;
-  /* flex-basis: 33%; */
-  /* width: 480px; */
   flex: 0 0 calc(100% / 3);
 }
 
 .card__item--brands {
-  column-gap: 40px;
-  padding: 50px 58px 54px 34px;
-  flex: 0 0 calc(100% / 2);
+  flex-basis: 50%;
+  display: grid;
+  grid-template-columns: auto 1fr 1fr;
+  grid-template-rows: 1fr 2fr;
+  column-gap: 50px;
+  padding: 3.125rem 3.75rem 3.375rem 3.125rem;
+  grid-template-areas:
+    'logo title title'
+    'logo text text';
+}
+
+.card__logo {
+  width: 100%;
+  grid-area: logo;
 }
 
 .card__item:hover {
@@ -514,7 +527,6 @@ body.is-lock {
   color: #5c8ee5;
 }
 
-
 .card__body {
   display: flex;
   flex-direction: column;
@@ -522,23 +534,18 @@ body.is-lock {
   padding: 40px 90px 50px 50px;
 }
 
-.card__body--brands {
-  display: flex;
-  flex-direction: column;
-  row-gap: 12px;
-}
-
 .card__title {
   font-size: 28px;
-  /* font-size: clamp(1.67rem, 0.8252rem + 1.8123vw, 3rem); */
   color: #292d33;
   font-weight: 400;
   transition: color 0.3s;
+  grid-area: title;
 }
 
 .card__description {
   font-size: 16px;
   color: #828a99;
+  grid-area: text;
 }
 
 .card__image {
@@ -547,8 +554,6 @@ body.is-lock {
 
 .card__logo {
   color: #828a99;
-  width: 100%;
-  height: 100%;
 }
 
 @media (max-width: 1700px) {
@@ -620,6 +625,11 @@ body.is-lock {
   .card__item {
     flex: 0 0 calc(100% / 2);
   }
+
+  .card__item--brands {
+    column-gap: 1.5625rem;
+    padding: 2.1875rem 1.75rem 2.1875rem 1.5625rem;
+  }
 }
 
 @media (max-width: 992px) {
@@ -662,10 +672,13 @@ body.is-lock {
     color: #fff;
   }
 
+  .card__logo {
+    width: 100px;
+  }
+
   .mobile__overlay {
     position: fixed;
     padding-top: 7rem;
-
     inset: 0;
     width: 100%;
     height: 100%;
@@ -710,18 +723,18 @@ body.is-lock {
   }
 
   .steps__text {
-    margin-bottom: 25px;
+    margin-block-end: 25px;
     font-size: 14px;
   }
 
   .steps__link {
     column-gap: 2.3rem;
     font-size: 14px;
-    margin-bottom: 20px;
+    margin-block-end: 20px;
   }
 
   .steps__num {
-    margin-bottom: 14px;
+    margin-block-end: 14px;
   }
 
   .slider__steps-buttons {
@@ -739,6 +752,10 @@ body.is-lock {
     padding: 18px 46px 50px 28px;
     row-gap: 6px;
   }
+
+  .card__item--brands {
+    grid-template-columns: auto 1fr 1fr;
+  }
 }
 
 @media (max-width: 768px) {
@@ -753,7 +770,7 @@ body.is-lock {
   .header__text {
     font-size: 14px;
     max-width: 342px;
-    margin-bottom: 2.4rem;
+    margin-block-end: 2.4rem;
   }
 
   .header__button {
@@ -797,9 +814,13 @@ body.is-lock {
   .card__description {
     font-size: 14px;
   }
+
+  .card__item--brands {
+    grid-template-rows: auto auto;
+  }
 }
 
-@media (max-width: 575px) {
+@media (max-width: 576px) {
   .header__navbar {
     height: 68px;
   }
@@ -842,18 +863,33 @@ body.is-lock {
   .header__content {
     padding-top: 9.9rem;
     padding-inline: 15px;
-    margin-bottom: 4.25rem;
+    margin-block-end: 4.25rem;
   }
 
   .separator {
     width: 8.5rem;
-    height: 2px;
-    background-color: #5c8ee5;
   }
 
   .burger-button {
     width: 6.7rem;
     height: 100%;
     padding: 2.2875rem 0 2.2875rem 2.5rem;
+  }
+
+  .card__item--brands {
+    grid-template-rows: 100px auto;
+    grid-template-columns: 100px auto;
+    grid-template-areas:
+      'logo title'
+      'text text';
+    padding: 30px 28px 28px 30px;
+    row-gap: 1.7rem;
+    column-gap: 2.625rem;
+  }
+
+  .card__logo {
+    /* align-self: center;
+    justify-self: start; */
+    place-self: center start; /* align-self / justify-self */
   }
 }
