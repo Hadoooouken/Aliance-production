@@ -346,11 +346,11 @@ button:hover {
   color: #828a99;
 }
 
-.steps__link {
-  margin-top: 20px;
+.button__link--steps {
+      margin-block-start: 1.25rem
 }
 
-.steps__link {
+.button__link {
   display: flex;
   align-items: center;
   column-gap: 1.5rem;
@@ -361,7 +361,7 @@ button:hover {
   line-height: 1.6;
 }
 
-.steps__link::before {
+.button__link::before {
   content: '';
   width: 40px;
   height: 1px;
@@ -369,7 +369,7 @@ button:hover {
   transition: width 0.3s;
 }
 
-.steps__link:hover::before {
+.button__link:hover::before {
   width: 60px;
 }
 
@@ -402,7 +402,7 @@ body.is-lock {
   display: flex;
   flex-direction: column;
   padding-inline: 20px;
-  margin-top: 20px;
+  margin-inline-start: 20px;
   row-gap: 10px;
 }
 
@@ -479,8 +479,6 @@ body.is-lock {
 .card__list {
   display: flex;
   flex-wrap: wrap;
-  /* display: grid;
-  grid-template-columns: repeat(3, 1fr); */
 }
 
 .card__item {
@@ -556,6 +554,46 @@ body.is-lock {
   color: #828a99;
 }
 
+.founder {
+  position: relative;
+  padding-inline: 0;
+}
+
+.founder__photo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 44%;
+}
+.founder__content-wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.founder__content {
+  max-width: 45rem;
+  padding-block-start: 3.125rem;
+  padding-inline-end: 16px;
+}
+
+.button__link--founder {
+   margin-block-start: 1.2rem;
+}
+
+
+.founder__title {
+  margin-block-end: 1.625rem;
+}
+
+.founder__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #828a99;
+  margin-bottom: 1.7rem;
+  word-spacing: 0.125rem;
+}
+
 @media (max-width: 1700px) {
   html {
     font-size: 0.875rem;
@@ -629,6 +667,14 @@ body.is-lock {
   .card__item--brands {
     column-gap: 1.5625rem;
     padding: 2.1875rem 1.75rem 2.1875rem 1.5625rem;
+  }
+
+  .founder__content {
+    max-width: 35rem;
+  }
+
+  .founder__photo {
+    width: 40%;
   }
 }
 
@@ -727,9 +773,11 @@ body.is-lock {
     font-size: 14px;
   }
 
-  .steps__link {
+  .button__link {
     column-gap: 2.3rem;
     font-size: 14px;
+  }
+    .button__link--steps {
     margin-block-end: 20px;
   }
 
@@ -818,6 +866,30 @@ body.is-lock {
   .card__item--brands {
     grid-template-rows: auto auto;
   }
+
+  .founder__content-wrapper {
+justify-content: center;
+}
+
+  .founder__content {
+    padding-inline: 1.25rem;
+    padding-block-start: 4.5rem;
+  }
+
+  .founder__photo {
+    position: relative;
+    width: 100%;
+    inset: 0;
+  }
+
+  .founder__title {
+    margin-block-end: 0.9rem;
+  }
+
+  .founder__text {
+    font-size: 14px;
+    margin-bottom: 0.7rem;
+  }
 }
 
 @media (max-width: 576px) {
@@ -888,8 +960,6 @@ body.is-lock {
   }
 
   .card__logo {
-    /* align-self: center;
-    justify-self: start; */
-    place-self: center start;
+    align-self: center;
   }
 }
