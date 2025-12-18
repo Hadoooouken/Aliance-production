@@ -84,8 +84,26 @@ const swiperSteps = new Swiper('.swiper__steps', {
     autoHeight: false,
     loop: true,
     navigation: {
-        nextEl: '.slider__steps-button--next',
-        prevEl: '.slider__steps-button--prev',
+        nextEl: '.js-slider-steps-next',
+        prevEl: '.js-slider-steps-prev',
+    },
+});
+
+const swiperBlog = new Swiper('.swiper__blog', {
+
+    slidesPerView: 1,
+    spaceBetween: 30,
+    breakpoints: {
+        1024: {
+            slidesPerView: 2,
+        },
+    },
+    speed: 400,
+    autoHeight: false,
+    loop: true,
+    navigation: {
+        nextEl: '.js-slider-blog-next',
+        prevEl: '.js-slider-blog-prev',
     },
 });
 
