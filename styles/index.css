@@ -157,6 +157,10 @@ body {
   transition: background-color 0.3s;
 }
 
+.button--cta {
+  padding: 1.125rem 2.8125rem;
+}
+
 .button:hover {
   background-color: #4a79cc;
 }
@@ -581,6 +585,7 @@ body.is-lock {
   width: 44%;
   height: 100%;
   object-fit: contain;
+  object-position: left center;
 }
 
 .founder__content-wrapper {
@@ -680,6 +685,10 @@ body.is-lock {
   display: flex;
 }
 
+.blog {
+  margin-block-end: 13.875rem;
+}
+
 .blog-card__footer {
   margin-block-start: 2rem;
   display: flex;
@@ -732,6 +741,123 @@ body.is-lock {
   font-size: 16px;
 }
 
+.section__cta {
+  position: relative;
+  padding-block: 5.9rem 6.25rem;
+}
+
+.cta {
+  padding-inline: 0;
+}
+
+.cta__form-wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.cta__form {
+  flex: 0 1 52.5rem;
+}
+
+.cta__title {
+  margin-block-end: 1.5rem;
+}
+
+.cta__description {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #828a99;
+  margin-block-end: 3.3rem;
+  max-width: 40rem;
+}
+
+.background-grey {
+  background-color: #f0f2f5;
+}
+
+.cta__image {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  max-width: 45rem;
+}
+
+.cta__form-footer {
+  display: flex;
+  align-items: center;
+  column-gap: 1.9rem;
+}
+
+.cta__form-notify {
+  font-size: 12px;
+  line-height: 1.6;
+  color: #828a99;
+  max-width: 25rem;
+}
+
+.notify {
+  display: flex;
+  column-gap: 10px;
+}
+
+.notify__icon {
+  flex-shrink: 0;
+}
+
+.input__group-wrapper {
+  display: flex;
+  column-gap: 1.875rem;
+}
+
+.input__group {
+  position: relative;
+  margin-block-end: 1.875rem;
+  height: 4.125rem;
+  flex-grow: 1;
+  background-color: #f0f2f5;
+}
+
+.input__group:last-child {
+  margin-block-end: 0;
+}
+
+.input__group-input {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding: 1.25rem 1.875rem;
+  border: 1px solid #e4e4eb;
+  background-color: transparent;
+  transition: border-color 0.3s;
+}
+
+.input__group-input:focus-visible {
+  outline: none;
+}
+
+.input__group-input:focus {
+  border: 1px solid #5c8ee5;
+}
+
+.input__group-label {
+  position: absolute;
+  left: 1.875rem;
+  top: 1.25rem;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #828a99;
+  transition: 0.3s;
+}
+
+.input__group-input:focus ~ .input__group-label,
+.input__group-input:not(:placeholder-shown) ~ .input__group-label {
+  top: -0.5rem;
+  font-size: 0.625rem;
+  left: 1rem;
+  background-color: inherit;
+  padding-inline: 0.625rem;
+}
+
 @media (max-width: 1700px) {
   html {
     font-size: 0.875rem;
@@ -778,6 +904,10 @@ body.is-lock {
 
   .clients__wrapper {
     column-gap: 3rem;
+  }
+
+  .cta__image {
+    max-width: 40rem;
   }
 }
 
@@ -826,6 +956,18 @@ body.is-lock {
   .clients-logo__list {
     align-self: center;
     margin-block-start: 0;
+  }
+
+  .cta__form {
+    flex: 0 1 41.5rem;
+  }
+
+  .section__cta {
+    padding-block: 2.9rem 2.25rem;
+  }
+
+  .cta__image {
+    left: -80px;
   }
 }
 
@@ -960,7 +1102,17 @@ body.is-lock {
     width: 50px;
     height: 50px;
   }
+
+  .cta__image {
+    display: none;
+  }
+
+  .cta__form-wrapper {
+    justify-content: center;
+  }
 }
+
+/* 768pxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 
 @media (max-width: 768px) {
   .container {
@@ -1081,6 +1233,62 @@ body.is-lock {
     width: 30px;
     height: 20px;
   }
+
+  .input__group-wrapper {
+    column-gap: 1.875rem;
+    flex-direction: column;
+  }
+
+  .cta__form-footer {
+    align-items: center;
+    flex-direction: column;
+    row-gap: 1.875rem;
+  }
+
+  .button--cta {
+    width: 100%;
+    padding-block: 20px;
+    font-size: 14px;
+  }
+
+  .background-grey {
+    padding-inline: 15px;
+  }
+
+  .section__cta {
+    padding-block: 3.9rem 4rem;
+  }
+
+  .cta__description {
+    margin-block-end: 2.6rem;
+  }
+
+  .cta__title {
+    margin-block-end: 1rem;
+  }
+
+  .input__group {
+    height: 5.125rem;
+  }
+
+  .input__group-label {
+    font-size: 14px;
+    left: 2.5rem;
+    top: 1.5rem;
+  }
+
+  .cta__form-footer {
+    margin-block-start: 0.625rem;
+    row-gap: 2.5rem;
+  }
+
+  .cta__form-notify {
+    max-width: 29rem;
+  }
+
+  .notify {
+    column-gap: 12px;
+  }
 }
 
 @media (max-width: 576px) {
@@ -1179,4 +1387,11 @@ body.is-lock {
     min-height: 16.1875rem;
     padding: 1.7rem 1.9rem;
   }
+  .cta__description {
+    font-size: 14px;
+  }
+
+  /* .cta {
+  padding-inline: 15px;
+} */
 }
