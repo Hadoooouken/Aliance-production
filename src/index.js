@@ -153,8 +153,3 @@ const swiperBlog = new Swiper('.swiper__blog', {
 
 
 
-
-
-
-
-
