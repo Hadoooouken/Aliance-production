@@ -87,13 +87,24 @@ const closeMenu = () => {
     lightModeOff()
 }
 
+const isPageScrolled = () => {
+    return window.scrollY > 1
+}
+
 window.addEventListener('scroll', () => {
-    this.scrollY > 1 ? lightModeOn() : lightModeOff()
+    isPageScrolled() ? lightModeOn() : lightModeOff()
 });
 
 burgerButton.addEventListener('click', () => {
-    mobileOverlay.classList.contains('is-open') ? closeMenu() : openMenu()
+    if (mobileOverlay.classList.contains('is-open')) {
+        closeMenu()
+        isPageScrolled() ? lightModeOn() : lightModeOff()
+    }
+    else {
+        openMenu()
+    }
 })
+
 
 const swiper = new Swiper('.swiper', {
 
