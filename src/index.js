@@ -5,12 +5,59 @@ const logoDark = document.querySelector('.logo__svg--dark')
 const burgerButton = document.querySelector('[data-js-header-burger-button]')
 const mobileOverlay = document.querySelector('[data-js-header-overlay]')
 
+const modal = document.querySelector('.modal')
+const openModalButtons = document.querySelectorAll('[data-js-header-modal-button]')
+const closeModalButton = modal.querySelector('[data-js-header-close-modal-button]')
+const modalContent = modal.querySelector('.modal__dialog')
+
+
+
+
 window.addEventListener('resize', () => {
     if (window.innerWidth > 992 && mobileOverlay.classList.contains('is-open')) {
         closeMenu()
     }
-
 });
+
+const openModal = (modal) => {
+    document.body.classList.add('is-lock')
+    modal.classList.add('is-open')
+}
+
+const closeModal = (modal) => {
+    document.body.classList.remove('is-lock')
+    modal.classList.remove('is-open')
+
+}
+
+openModalButtons.forEach((button) => {
+    button.addEventListener('click', (e) => {
+        e.preventDefault();
+        openModal(modal)
+    })
+})
+
+closeModalButton.addEventListener('click', () => {
+    closeModal(modal)
+
+})
+
+const closeModalByOverlay = (e) => {
+    if (e.target === modal) {
+        closeModal(e.target)
+    }
+}
+
+modal.addEventListener('click', closeModalByOverlay)
+
+const closeModalByEsc = (evt) => {
+
+    if (evt.key === 'Escape' && modal.classList.contains('is-open')) {
+        closeModal(modal)
+    }
+}
+
+window.addEventListener('keydown', closeModalByEsc)
 
 
 
@@ -106,7 +153,6 @@ const swiperBlog = new Swiper('.swiper__blog', {
         prevEl: '.js-slider-blog-prev',
     },
 });
-
 
 
 
