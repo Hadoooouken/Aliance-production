@@ -110,7 +110,7 @@
                 </svg>
                 <a class="header__contacts-link" href="tel:+74996861014">+7 (499) 686-10-14</a>
             </div>
-            <button class="header__nav-button button" data-js-header-modal-button>
+            <button class="header__nav-button button" data-toggle="modal">
                 <svg class="header__contacts-icon" width="24" height="24">
                     <use href="./images/sprites.svg#phone-icon"></use>
                 </svg>
@@ -124,7 +124,7 @@
                 <p class="header__text">Высокий уровень вовлечения представителей целевой аудитории является четким
                     доказательством простого факта: высококачественный прототип будущего проекта напрямую зависит от
                     анализа существующих паттернов поведения.</p>
-                <a href="./" class="button header__button" data-js-header-modal-button>Подробнее о компании</a>
+                <a href="./" class="button header__button" data-toggle="modal">Подробнее о компании</a>
             </div>
 
             <div class="swiper">
@@ -531,11 +531,11 @@
                             ответит на все интересующие вопросы и поможем даже в самых сложных случаях!</p>
                         <div class="input__group-wrapper">
                             <div class="input__group">
-                                <input type="text" class="input__group-input" id="user-name" placeholder="">
+                                <input type="text" class="input__group-input" id="user-name" placeholder=" ">
                                 <label class="input__group-label" for="user-name">Имя</label>
                             </div>
                             <div class="input__group">
-                                <input id="user-phone" type="tel" class="input__group-input" placeholder="">
+                                <input id="user-phone" type="tel" class="input__group-input" placeholder=" ">
                                 <label class="input__group-label" for="user-phone">Номер
                                     телефона</label>
                             </div>
@@ -641,7 +641,7 @@
     <div class="modal">
         <div class="modal__dialog">
             <h2 class="modal__title">Есть вопросы?</h2>
-            <button class="modal__close-button" type="button" data-js-header-close-modal-button>
+            <button class="modal__close-button" type="button" data-toggle="modal">
                 <svg width="18" height="18">
                     <use href="./images/sprites.svg#closeButton"></use>
                 </svg>
@@ -652,12 +652,12 @@
                 <div class="input__group-wrapper input__group-wrapper--vertical">
                     <div class="input__group input__group--modal">
                         <input type="text" class="input__group-input input__group-input--modal" id="user-name-modal"
-                            placeholder="">
+                            placeholder=" ">
                         <label class="input__group-label input__group-label--modal" for="user-name-modal">Имя</label>
                     </div>
                     <div class="input__group input__group--modal">
                         <input id="user-phone-modal" type="tel" class="input__group-input input__group-input--modal"
-                            placeholder="">
+                            placeholder=" ">
                         <label class="input__group-label input__group-label--modal" for="user-phone-modal">Номер телефона</label>
                     </div>
                 </div>

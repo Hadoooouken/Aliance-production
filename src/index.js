@@ -5,60 +5,32 @@ const logoDark = document.querySelector('.logo__svg--dark')
 const burgerButton = document.querySelector('[data-js-header-burger-button]')
 const mobileOverlay = document.querySelector('[data-js-header-overlay]')
 
+
+
 const modal = document.querySelector('.modal')
-const openModalButtons = document.querySelectorAll('[data-js-header-modal-button]')
-const closeModalButton = modal.querySelector('[data-js-header-close-modal-button]')
+const openModalButtons = document.querySelectorAll('[data-toggle="modal"]')
 const modalContent = modal.querySelector('.modal__dialog')
 
-
-
-
-window.addEventListener('resize', () => {
-    if (window.innerWidth > 992 && mobileOverlay.classList.contains('is-open')) {
-        closeMenu()
+document.addEventListener("click", (event) => {
+    if (
+        event.target.dataset.toggle === "modal" ||
+        event.target.parentNode.dataset.toggle === "modal" ||
+        (!event.composedPath().includes(modalContent) && modal.classList.contains("is-open"))
+    ) {
+        event.preventDefault();
+        modal.classList.toggle("is-open");
     }
-});
-
-const openModal = (modal) => {
-    document.body.classList.add('is-lock')
-    modal.classList.add('is-open')
-}
-
-const closeModal = (modal) => {
-    document.body.classList.remove('is-lock')
-    modal.classList.remove('is-open')
-
-}
-
-openModalButtons.forEach((button) => {
-    button.addEventListener('click', (e) => {
-        e.preventDefault();
-        openModal(modal)
-    })
 })
 
-closeModalButton.addEventListener('click', () => {
-    closeModal(modal)
-
-})
-
-const closeModalByOverlay = (e) => {
-    if (e.target === modal) {
-        closeModal(e.target)
-    }
-}
-
-modal.addEventListener('click', closeModalByOverlay)
 
 const closeModalByEsc = (evt) => {
 
     if (evt.key === 'Escape' && modal.classList.contains('is-open')) {
-        closeModal(modal)
+        modal.classList.toggle("is-open");
     }
 }
 
-window.addEventListener('keydown', closeModalByEsc)
-
+document.addEventListener('keydown', closeModalByEsc)
 
 
 const lightModeOn = () => {
@@ -86,6 +58,12 @@ const closeMenu = () => {
     burgerButton.classList.remove('close-menu')
     lightModeOff()
 }
+
+window.addEventListener('resize', () => {
+    if (window.innerWidth > 992 && mobileOverlay.classList.contains('is-open')) {
+        closeMenu()
+    }
+});
 
 const isPageScrolled = () => {
     return window.scrollY > 1
@@ -152,7 +130,16 @@ const swiperBlog = new Swiper('.swiper__blog', {
     slidesPerView: 1,
     spaceBetween: 30,
     breakpoints: {
-        1024: {
+        370: {
+            slidesPerView: 1,
+            spaceBetween: 0,
+        },
+        768: {
+            spaceBetween: 30,
+
+        },
+        1000: {
+            spaceBetween: 30,
             slidesPerView: 2,
         },
     },
@@ -172,6 +159,54 @@ const swiperBlog = new Swiper('.swiper__blog', {
 
 
 
+
+
+// const modal = document.querySelector('.modal')
+// const openModalButtons = document.querySelectorAll('[data-js-header-modal-button]')
+// const closeModalButton = modal.querySelector('[data-js-header-close-modal-button]')
+// const modalContent = modal.querySelector('.modal__dialog')
+
+
+
+// const openModal = (modal) => {
+//     document.body.classList.add('is-lock')
+//     modal.classList.add('is-open')
+// }
+
+// const closeModal = (modal) => {
+//     document.body.classList.remove('is-lock')
+//     modal.classList.remove('is-open')
+
+// }
+
+// openModalButtons.forEach((button) => {
+//     button.addEventListener('click', (e) => {
+//         e.preventDefault();
+//         openModal(modal)
+//     })
+// })
+
+// closeModalButton.addEventListener('click', () => {
+//     closeModal(modal)
+
+// })
+
+// const closeModalByOverlay = (e) => {
+//     if (e.target === modal) {
+//         closeModal(e.target)
+//     }
+// }
+
+// modal.addEventListener('click', closeModalByOverlay)
+
+// const closeModalByEsc = (evt) => {
+
+//     if (evt.key === 'Escape' && modal.classList.contains('is-open')) {
+//         closeModal(modal)
+//     }
+// }
+
+// window.addEventListener('keydown', closeModalByEsc)
 
 
 
