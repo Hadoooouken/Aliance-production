@@ -52,7 +52,6 @@ body {
   background-color: #fff;
   color: #292d33;
   border-bottom: none;
-  height: 4.625rem;
 }
 
 .header__navbar--light .logo__svg--light {
@@ -78,6 +77,10 @@ body {
   padding-inline: 3.125rem;
   border-right: 1px solid rgba(235, 235, 240, 0.2);
   height: 100%;
+}
+
+.header__navbar--light .header__logo {
+  border-color: #ebebf0;
 }
 
 .header__navigation-list {
@@ -859,7 +862,6 @@ body.is-lock {
   background-color: #f0f2f5;
 }
 
-/* попробую накинуть родителю бг колор*/
 .input__group--modal {
   background-color: #fafbfc;
   border: 1px solid #e4e4eb;
@@ -1002,6 +1004,11 @@ body.is-lock {
   line-height: 1.6;
   color: #828a99;
   text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer__menu-link:hover {
+  color: #5c8ee5;
 }
 
 .footer__menu-link--bold {
@@ -1108,22 +1115,101 @@ body.is-lock {
 }
 
 .about-page {
-  padding-block-start: 100px;
+  padding-block-start: 94px;
 }
 
-.section__hero {
-  padding: 3.125rem;
+.hero {
+  padding-block: 3.125rem;
 }
 
-.section__hero--bg-gray {
+.hero--small {
+  padding-block: 3.125rem 0;
+}
+
+.hero__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero--gray {
   background-color: #f0f2f5;
 }
 
-.section__about-title {
-font-weight: 400;
-font-size: 80px;
-line-height: 1.2;
-color: var(--txt);
+.hero--image {
+  position: relative;
+  background-image: url('../images/hero/hero-bg-image.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero--image::before {
+  content: '';
+  position: absolute;
+  background-color: rgba(41, 45, 51, 0.6);
+  inset: 0;
+  z-index: 1;
+}
+
+.hero--image .container {
+  position: relative;
+  z-index: 2;
+}
+
+.hero__title {
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 1.2;
+  margin-block-end: 1.6rem;
+}
+
+.hero__title--light {
+  color: #fff;
+  z-index: 2;
+}
+
+.section--full {
+  padding-inline: 0;
+}
+
+.breadcrumb--light {
+  color: #fff;
+  z-index: 1;
+}
+
+.breadcrumb {
+  display: flex;
+  font-size: 14px;
+  color: #828a99;
+}
+
+.breadcrumb__item + .breadcrumb__item:before {
+  content: '—';
+  color: #828a99;
+  margin-inline: 0.75rem;
+}
+
+.breadcrumb__item--light {
+  color: #fff;
+}
+
+.breadcrumb__item--light + .breadcrumb__item--light:before {
+  content: '—';
+  color: #fff;
+  margin-inline: 0.75rem;
+}
+
+.breadcrumb__item:last-child {
+  text-decoration: none;
+  color: #292d33;
+}
+
+.breadcrumb__link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.section--spaced {
+  margin-block-end: 6.25rem;
 }
 
 @media (max-width: 1700px) {
