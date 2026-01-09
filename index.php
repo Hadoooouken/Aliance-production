@@ -16,7 +16,7 @@
         <nav class="mobile__menu" aria-label="Мобильное меню">
             <div class="mobile__menu-inner">
                 <ul class="mobile__menu-list">
-                    <li class="mobile__menu-item"><a href="./about.html" class="mobile__menu-link">О компании</a></li>
+                    <li class="mobile__menu-item"><a href="./about.php" class="mobile__menu-link">О компании</a></li>
                     <li class="mobile__menu-item"><a href="#" class="mobile__menu-link">Контрактное производство</a>
                         <ul class="mobile__submenu-list">
                             <li class="mobile__submenu-item"><a href="#" class="mobile__submenu-link">Автомобильная
@@ -95,7 +95,8 @@
                 </svg>
             </a>
             <ul class="header__navigation-list">
-                <li class="header__navigation-item"><a href="./about.html" class="header__navigation-link">О&nbsp;компании</a></li>
+                <li class="header__navigation-item"><a href="./about.php"
+                        class="header__navigation-link">О&nbsp;компании</a></li>
                 <li class="header__navigation-item"><a href="#" class="header__navigation-link">Контрактное
                         производство</a></li>
                 <li class="header__navigation-item"><a href="#" class="header__navigation-link">Собственные торговые
@@ -119,7 +120,8 @@
         <div class="container">
             <div class="header__content">
                 <div class="separator"></div>
-                <h1 class="header__title">Комплексное обеспечение товарами и&nbsp;расходными материалами бизнеса
+                <h1 class="header__title">
+                    <?php echo "Комплексное обеспечение товарами и расходными материалами бизнеса"; ?>
                 </h1>
                 <p class="header__text">Высокий уровень вовлечения представителей целевой аудитории является четким
                     доказательством простого факта: высококачественный прототип будущего проекта напрямую зависит от
@@ -521,123 +523,9 @@
                 </div>
             </div>
         </section>
-        <section class="section cta">
-            <div class="background-grey section__cta">
-                <img class="cta__image" src="./images/cta-img.png" alt="" loading="lazy">
-                <div class="cta__form-wrapper container">
-                    <form action="#" class="cta__form">
-                        <h2 class="section__title cta__title">Хотите сотрудничать?</h2>
-                        <p class="cta__description">Оставьте заявку, наш менеджер свяжется с Вами в ближайшее время
-                            ответит на все интересующие вопросы и поможем даже в самых сложных случаях!</p>
-                        <div class="input__group-wrapper">
-                            <div class="input__group">
-                                <input type="text" class="input__group-input" id="user-name" placeholder=" ">
-                                <label class="input__group-label" for="user-name">Имя</label>
-                            </div>
-                            <div class="input__group">
-                                <input id="user-phone" type="tel" class="input__group-input" placeholder=" ">
-                                <label class="input__group-label" for="user-phone">Номер
-                                    телефона</label>
-                            </div>
-                        </div>
-                        <div class="cta__form-footer">
-                            <button type="submit" class="button button--cta">Отправить заявку</button>
-                            <div class="notify">
-                                <svg class="notify__icon" width="14" height="14">
-                                    <use href="./images/sprites.svg#notify-icon"></use>
-                                </svg>
-                                <p class="cta__form-notify">
-                                    Обращаясь к нам вы получаете не только профессиональную работу, но и абсолютную
-                                    конфиденциальность информации!
-                                </p>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </section>
+        <?php include_once('./cta.php') ?>
     </main>
-    <footer class="footer">
-        <div class="container">
-            <div class="footer__top">
-                <svg class="logo__svg--dark logo__svg-footer" width="200" height="63">
-                    <use href="./images/sprites.svg#logo-dark"></use>
-                </svg>
-                <div class="contacts footer__contacts  ">
-                    <a class="contacts__phone footer__phone" href="tel:+74996861014">+7 (499) 686-10-14</a>
-                    <address class="footer__address">
-                        <a class="contacts__item" href="#">
-                            <img class="contacts__icon" src="./images/icon-mobile/navigation-licon.svg" alt="">
-                            <span class="contacts__text footer__text">г. Москва, Холодильный пер. 4к1с8</span>
-                        </a>
-
-                        <a class="contacts__item" href="mailto:a.dragunov@tdaliance.ru">
-                            <img class="contacts__icon" src="./images/icon-mobile/mail-icon.svg" alt="">
-                            <span class="contacts__text footer__text">a.dragunov@tdaliance.ru</span>
-                        </a>
-                    </address>
-
-                    <div class="socials socials--mobile">
-                        <a href="#"><img src="./images/icon-mobile/vk-icon.svg" alt="ВКонтакте"></a>
-                        <a href="#"><img src="./images/icon-mobile/instagramm-icon.svg" alt="Instagram"></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <hr class="divider-line divider-line--footer">
-        <div class="container">
-            <div class="footer__bottom">
-                <div class="footer__menu-wrapper">
-                    <h2 class="footer__menu-title">Контрактное производство</h2>
-                    <ul class="footer__menu-list footer__menu--2cols">
-                        <li class="footer__menu-item"><a href="#" class="footer__menu-link">Автомобильная химия</a></li>
-                        <li class="footer__menu-item"><a href="#" class="footer__menu-link">Бытовая химия</a></li>
-                        <li class="footer__menu-item"><a href="#" class="footer__menu-link">Дезинфицирующие средства</a>
-                        </li>
-                        <li class="footer__menu-item"><a href="#" class="footer__menu-link">Пищевые аэрозоли</a></li>
-                        <li class="footer__menu-item"><a href="#" class="footer__menu-link">Косметическая продукция</a>
-                        </li>
-                        <li class="footer__menu-item"><a href="#" class="footer__menu-link">Краски аэрозольные</a></li>
-                    </ul>
-                </div>
-                <div class="footer__menu-wrapper">
-                    <h2 class="footer__menu-title">Собственные марки</h2>
-                    <ul class="footer__menu-list footer__menu-list--1col">
-                        <li class="footer__menu-item"><a href="#" class="footer__menu-link">Автохимия AG-Tech</a></li>
-                        <li class="footer__menu-item"><a href="#" class="footer__menu-link">Автохимия AP</a></li>
-                    </ul>
-                </div>
-                <div class="footer__menu-wrapper">
-                    <ul class="footer__menu-list footer__menu-list--bold footer__menu-list--1col">
-                        <li class="footer__menu-item"><a href="./about.html" class=" footer__menu-link footer__menu-link--bold">О
-                                компании</a></li>
-                        <li class="footer__menu-item"><a href="#"
-                                class="footer__menu-link footer__menu-link--bold">Новости</a></li>
-                        <li class="footer__menu-item"><a href="#"
-                                class="footer__menu-link footer__menu-link--bold">Контакты</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <hr class="divider-line divider-line--footer">
-        <div class="container">
-            <div class="footer__wrapper">
-                <div class="footer__legal">
-                    <p class="footer__copyright">&#169; 2022 «Aliance Production». Все права защищены.</p>
-                    <a href="#" class="footer__policy">Политики конфиденциальности</a>
-                </div>
-
-
-                <div class="footer__author">
-                    <span class="footer__made-in">Сделано в
-                    </span>
-                    <svg width="52" height="11">
-                        <use href="./images/sprites.svg#ruso"></use>
-                    </svg>
-                </div>
-            </div>
-        </div>
-    </footer>
+    <?php include_once('./footer.php') ?>
     <div class="modal">
         <div class="modal__dialog">
             <h2 class="modal__title">Есть вопросы?</h2>
@@ -658,7 +546,8 @@
                     <div class="input__group input__group--modal">
                         <input id="user-phone-modal" type="tel" class="input__group-input input__group-input--modal"
                             placeholder=" ">
-                        <label class="input__group-label input__group-label--modal" for="user-phone-modal">Номер телефона</label>
+                        <label class="input__group-label input__group-label--modal" for="user-phone-modal">Номер
+                            телефона</label>
                     </div>
                 </div>
                 <div class="cta__form-footer cta__form-footer--vertical">
