@@ -13,7 +13,7 @@
                         <label class="input__group-label" for="user-name">Имя</label>
                     </div>
                     <div class="input__group">
-                        <input id="user-phone" type="tel" class="input__group-input" name="userphone" placeholder=" " maxlength="30"
+                        <input id="user-phone" type="tel" class="input__group-input phone-mask" name="userphone" placeholder=" " maxlength="30"
                             required>
                         <label class="input__group-label" for="user-phone">Номер
                             телефона</label>

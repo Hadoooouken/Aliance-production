@@ -881,6 +881,20 @@ body.is-lock {
   transition: border-color 0.3s;
 }
 
+.input__group-input.is-invalid {
+  border: 1px solid red;
+}
+
+.just-validate-error-label {
+
+    position: absolute;
+    font-size: 0.8rem;
+    transform: translateX(200%);
+    top: -7px;
+    padding-inline: 5px;
+    background-color: inherit;
+}
+
 .input__group-input--modal {
   background-color: #fafbfc;
   border: 1px solid #e4e4eb;

@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="./styles/swiper-bundle.min.css">
     <link rel="stylesheet" href="./styles/normalize.css">
     <link rel="stylesheet" href="./styles/index.css">
+    <script src="./src/swiper-bundle.min.js" defer></script>
+    <script src="./src/just-validate.production.min.js" defer></script>
+    <script src="./src/index.js" defer></script>
     <title>Aliance Production</title>
 </head>
 
@@ -111,7 +114,7 @@
                 </svg>
                 <a class="header__contacts-link" href="tel:+74996861014">+7 (499) 686-10-14</a>
             </div>
-            <button class="header__nav-button button" data-toggle="modal">
+            <button class="header__nav-button button" data-js-header-modal-button>
                 <svg class="header__contacts-icon" width="24" height="24">
                     <use href="./images/sprites.svg#phone-icon"></use>
                 </svg>
@@ -126,7 +129,7 @@
                 <p class="header__text">Высокий уровень вовлечения представителей целевой аудитории является четким
                     доказательством простого факта: высококачественный прототип будущего проекта напрямую зависит от
                     анализа существующих паттернов поведения.</p>
-                <a href="./" class="button header__button" data-toggle="modal">Подробнее о компании</a>
+                <a href="./" class="button header__button" data-js-header-modal-button>Подробнее о компании</a>
             </div>
 
             <div class="swiper">
@@ -526,26 +529,26 @@
         <?php include_once('./cta.php') ?>
     </main>
     <?php include_once('./footer.php') ?>
-    <div class="modal">
+    <div class="modal modal__question">
         <div class="modal__dialog">
             <h2 class="modal__title">Есть вопросы?</h2>
-            <button class="modal__close-button" type="button" data-toggle="modal">
+            <button class="modal__close-button" type="button" data-js-header-close-modal-button>
                 <svg width="18" height="18">
                     <use href="./images/sprites.svg#closeButton"></use>
                 </svg>
             </button>
             <p class="modal__text">Оставьте заявку, наш менеджер свяжется с Вами в ближайшее время ответит на все
                 интересующие вопросы и поможем даже в самых сложных случаях!</p>
-            <form action="" class="modal__form">
+            <form action="./handler.php" method="POST" class="modal__form">
                 <div class="input__group-wrapper input__group-wrapper--vertical">
                     <div class="input__group input__group--modal">
                         <input type="text" class="input__group-input input__group-input--modal" id="user-name-modal"
-                            placeholder=" ">
+                            name="username" placeholder=" " required>
                         <label class="input__group-label input__group-label--modal" for="user-name-modal">Имя</label>
                     </div>
                     <div class="input__group input__group--modal">
-                        <input id="user-phone-modal" type="tel" class="input__group-input input__group-input--modal"
-                            placeholder=" ">
+                        <input id="user-phone-modal" type="tel" class="input__group-input input__group-input--modal phone-mask"
+                            name="userphone" placeholder=" " required>
                         <label class="input__group-label input__group-label--modal" for="user-phone-modal">Номер
                             телефона</label>
                     </div>
@@ -565,8 +568,22 @@
             </form>
         </div>
     </div>
-    <script src="./src/swiper-bundle.min.js" defer></script>
-    <script src="./src/index.js" defer></script>
+
+    <div class="modal modal--success">
+        <div class="modal__dialog ">
+            <img src="./images/modal-image/thanks_illu.png" alt="">
+            <h2 class="modal__title ">Спасибо за заявку!</h2>
+            <button class="modal__close-button" type="button" data-js-header-close-modal-button>
+                <svg width="18" height="18">
+                    <use href="./images/sprites.svg#closeButton"></use>
+                </svg>
+            </button>
+            <p class="modal__text">Наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие вопросы и
+                поможем даже в самых сложных случаях!</p>
+                     <a href="./index.php"class="button button--cta button-modal">Вернуться на главную</a>
+        </div>
+    </div>
+
 </body>
 
 </html>
