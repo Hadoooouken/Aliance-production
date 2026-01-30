@@ -88,6 +88,7 @@ forms.forEach((form) => {
                 }).then((res) => {
                     if (res.ok) {
                         currentForm.reset()
+                        closeModal(modalQuestion)
                         openModal(modalSuccess)
                     }
                     console.log(res)
