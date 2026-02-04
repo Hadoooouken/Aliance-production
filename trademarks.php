@@ -3,6 +3,8 @@ $page_title = "Собственные торговые марки";
 $header_style = "hero--gray";
 $breadcrumb_color = "breadcrumb__item";
 $page_class = 'page-inner';
+include_once('./head.php');
+include_once('./body.php');
 include_once("./header-page.php");
 ?>
 <main class="main--inner">

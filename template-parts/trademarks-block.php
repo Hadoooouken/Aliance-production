@@ -1,6 +1,6 @@
 
 
-<section class="section own-brands">
+<section class="section section--spaced-lg">
     <div class="container">
         <?php
 

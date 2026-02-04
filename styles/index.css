@@ -503,6 +503,10 @@ body.is-lock {
   line-height: 1.6;
 }
 
+.page-contacts .contacts__item {
+  column-gap: 8px
+}
+
 .socials--mobile {
   display: flex;
   column-gap: 15px;
@@ -947,6 +951,9 @@ body.is-lock {
   align-items: center;
 }
 
+.page-contacts .footer__contacts {
+  margin-bottom: 6.25rem;
+}
 .footer__address {
   display: flex;
   column-gap: 2.3rem;
@@ -960,6 +967,19 @@ body.is-lock {
   text-decoration: underline;
   white-space: nowrap;
   transition: color 0.3s;
+}
+
+.page-contacts .footer__phone {
+  font-size: 3rem;
+}
+
+.page-contacts .footer__text{
+ font-size: 1.375rem;
+}
+
+.page-contacts .contacts__icon {
+  width: 36px;
+  height: 36px;
 }
 
 .footer__phone:hover,
@@ -1231,7 +1251,7 @@ body.is-lock {
   margin-block-end: 6.25rem;
 }
 
-.page-inner .own-brands {
+.page-inner .section--spaced-lg {
   margin-block-end: 13.875rem;
 }
 
@@ -1513,9 +1533,10 @@ body.is-lock {
     margin-block-end: 4.25rem;
   }
 
-  .page-inner .own-brands {
-    margin-block-end: 7.875rem;
-  }
+  .page-inner .section--spaced-lg {
+ margin-block-end: 7.875rem;
+}
+
   .steps__inner {
     padding-inline: 0;
   }
@@ -1866,6 +1887,14 @@ body.is-lock {
     font-weight: 700;
     font-size: 14px;
   }
+
+  .page-contacts .footer__phone {
+  font-size: 36px;
+}
+
+.page-contacts .footer__text{
+ font-size: 20px;
+}
 }
 
 @media (max-width: 576px) {

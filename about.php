@@ -3,15 +3,14 @@ $page_title = "О компании";
 $header_style = "hero--gray";
 $breadcrumb_color = "breadcrumb__item";
 $page_class = 'page-inner';
+include_once('./head.php');
+include_once('./body.php');
 include_once('./header-page.php') ?>
 <main class="main--inner">
     <?php include_once('./page-hero.php') ?>
     <?php include_once('./cta.php') ?>
 </main>
 <?php include_once('./footer.php') ?>
-<script src="./src/swiper-bundle.min.js" defer></script>
-<script src="./src/just-validate.production.min.js" defer></script>
-<script src="./src/index.js" defer></script>
 </body>
 
 

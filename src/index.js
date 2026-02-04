@@ -8,6 +8,7 @@ const navbar = document.querySelector('.header__navbar')
 const logoLight = document.querySelector('.logo__svg--light')
 const logoDark = document.querySelector('.logo__svg--dark')
 const ismainPage = document.body.classList.contains('main-page')
+const pageInner = document.body.classList.contains('page-inner')
 
 
 const burgerButton = document.querySelector('[data-js-header-burger-button]')
@@ -110,6 +111,10 @@ const lightModeOn = () => {
 
 }
 
+if (!ismainPage) {
+    lightModeOn();
+}
+
 const lightModeOff = () => {
     navbar.classList.remove('header__navbar--light')
 }
@@ -125,7 +130,13 @@ const closeMenu = () => {
     document.body.classList.remove('is-lock')
     mobileOverlay.classList.remove('is-open')
     burgerButton.classList.remove('close-menu')
-    lightModeOff()
+    if (!ismainPage) {
+        lightModeOn();
+    }
+    else {
+        lightModeOff()
+    }
+
 }
 
 window.addEventListener('resize', () => {
@@ -134,21 +145,21 @@ window.addEventListener('resize', () => {
     }
 });
 
-
 window.addEventListener('scroll', () => {
     window.scrollY > 1 ? changeNavbarHeight(`4.75rem`) : changeNavbarHeight('5.72rem')
     if (ismainPage) {
         window.scrollY > 1 ? lightModeOn() : lightModeOff()
     }
-
 });
 
 burgerButton.addEventListener('click', () => {
     if (mobileOverlay.classList.contains('is-open')) {
         closeMenu()
-        window.scrollY > 1 ? lightModeOn() : lightModeOff()
+        if (ismainPage)
+            window.scrollY > 1 ? lightModeOn() : lightModeOff()
     }
     else {
+        lightModeOn()
         openMenu()
     }
 })
