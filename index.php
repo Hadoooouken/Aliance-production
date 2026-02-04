@@ -248,68 +248,7 @@
 
             </div>
         </section>
-        <section class="section production">
-            <div class="container">
-                <div class="separator"></div>
-                <h2 class="section__title">Контрактное производство</h2>
-                <ul class="card__list">
-                    <li class="card__item card__item--product">
-                        <div class="card__body">
-                            <h3 class="card__title">Автомобильная химия</h3>
-                            <p class="card__description">Безусловно, сплочённость команды профессионалов позволяет
-                                оценить
-                                значение форм воздействия.</p>
-                        </div>
-                        <img class="card__image" src="./images/cards-image/1.png" alt="Автомобильная химия" width="478"
-                            height="300" loading="lazy">
-                    </li>
-                    <li class="card__item card__item--product">
-                        <div class="card__body">
-                            <h3 class="card__title">Бытовая химия</h3>
-                            <p class="card__description">А также стремящиеся вытеснить традиционное производство,
-                                нанотехнологии функционально разнесены на независимые элементы.</p>
-                        </div>
-                        <img class="card__image" src="./images/cards-image/2.png" alt="Бытовая химия" width="478"
-                            height="300" loading="lazy">
-                    </li>
-                    <li class="card__item card__item--product">
-                        <div class="card__body">
-                            <h3 class="card__title">Дезинфицирующие средства</h3>
-                            <p class="card__description">Лишь интерактивные прототипы призваны к ответу.</p>
-                        </div>
-                        <img class="card__image" src="./images/cards-image/3.png" alt="Дезинфицирующие средства"
-                            width="478" height="300" loading="lazy">
-                    </li>
-                    <li class="card__item card__item--product">
-                        <div class="card__body">
-                            <h3 class="card__title">Пищевые аэрозоли</h3>
-                            <p class="card__description">Безусловно, сплочённость команды профессионалов позволяет
-                                оценить
-                                значение форм воздействия.</p>
-                        </div>
-                        <img class="card__image" src="./images/cards-image/3.png" alt="Пищевые аэрозоли" width="478"
-                            height="300" loading="lazy">
-                    </li>
-                    <li class="card__item card__item--product">
-                        <div class="card__body">
-                            <h3 class="card__title">Косметическая продукция</h3>
-                            <p class="card__description">Лишь интерактивные прототипы призваны к ответу.</p>
-                        </div>
-                        <img class="card__image" src="./images/cards-image/4.png" alt="Косметическая продукция"
-                            width="478" height="300" loading="lazy">
-                    </li>
-                    <li class="card__item card__item--product">
-                        <div class="card__body">
-                            <h3 class="card__title">Краски аэрозольные</h3>
-                            <p class="card__description">А также стремящиеся вытеснить традиционное производство,
-                                нанотехнологии функционально разнесены на независимые элементы.</p>
-                        </div>
-                        <img class="card__image" src="./images/cards-image/5.png" alt="Краски аэрозольные" width="478"
-                            height="300" loading="lazy">
-                    </li>
-                </ul>
-            </div>
-        </section>
+           <?php $block_title="Контрактное производство"; include_once('./template-parts/production-block.php') ?>
         <?php $block_title="собственные марки"; include_once('./template-parts/trademarks-block.php') ?>
         <section class="section founder">
             <img src="./images/founder-bg.jpg" alt="founder__photo" class="founder__photo" loading="lazy">

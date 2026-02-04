@@ -682,11 +682,9 @@ body.is-lock {
 }
 
 .clients__text {
-  font-family: var(--font-family);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.6;
-  color: var(--txt);
 }
 
 .clients__iconnns {
@@ -1237,6 +1235,38 @@ body.is-lock {
   margin-block-end: 13.875rem;
 }
 
+.page-inner .seo {
+  margin-bottom: 14.5rem;
+}
+
+.page-inner .production {
+  margin-bottom: 6.25rem;
+}
+
+.seo__title {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 28px;
+  line-height: 1.6;
+  margin-bottom: 0.625rem;
+}
+
+.seo__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #828a99;
+  margin-bottom: 1.25rem;
+}
+
+.seo__more {
+  display: flex;
+  align-items: center;
+  column-gap: 0.9375rem;
+  color: #5c8ee5;
+  font-weight: 600;
+  text-decoration: none;
+}
+
 @media (max-width: 1700px) {
   html {
     font-size: 0.875rem;
@@ -1586,6 +1616,12 @@ body.is-lock {
   .blog-card__description {
     font-size: 14px;
   }
+
+  .seo__title {
+    font-size: 20px;
+    line-height: 1.2;
+    margin-bottom: 0.625rem;
+  }
 }
 
 /* 768pxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
@@ -1825,6 +1861,11 @@ body.is-lock {
     top: 35px;
     right: 31px;
   }
+
+  .seo__more {
+    font-weight: 700;
+    font-size: 14px;
+  }
 }
 
 @media (max-width: 576px) {
@@ -1950,5 +1991,26 @@ body.is-lock {
   .footer__menu-list--bold {
     padding-inline-start: 0;
     row-gap: 2.6rem;
+  }
+
+  .breadcrumb {
+    font-size: 12px;
+  }
+
+  .page-inner .production {
+    margin-bottom: 4.25rem;
+  }
+
+  .page-inner .seo {
+    margin-bottom: 8rem;
+  }
+
+  .seo__title {
+    margin-bottom: 1.5rem;
+  }
+
+  .seo__text {
+    word-spacing: 1px;
+    margin-bottom: 2.3rem;
   }
 }
