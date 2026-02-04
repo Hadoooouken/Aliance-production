@@ -1,0 +1,18 @@
+ <?php
+  $page_title="Контрактное производство";
+  $header_style="hero--gray";
+  $breadcrumb_color="breadcrumb__item--light";
+  $page_title_color="hero__title--light";
+$page_class = 'page-inner';
+  include_once('./header-page.php') ?>
+    <main class="main--inner">
+        <?php include_once('./page-hero.php') ?>
+        <?php include_once('./cta.php') ?>
+    </main>
+    <?php include_once('./footer.php') ?>
+    <script src="./src/swiper-bundle.min.js" defer></script>
+     <script src="./src/just-validate.production.min.js" defer></script>
+    <script src="./src/index.js" defer></script>
+</body>
+
+

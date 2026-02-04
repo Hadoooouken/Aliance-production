@@ -44,7 +44,9 @@ body {
   column-gap: 3.125rem;
   color: #fff;
   border-bottom: 1px solid rgba(235, 235, 240, 0.2);
-  transition: background-color 0.3s, height 0.3s;
+  transition:
+    background-color 0.3s,
+    height 0.3s;
   flex-wrap: nowrap;
 }
 
@@ -886,13 +888,12 @@ body.is-lock {
 }
 
 .just-validate-error-label {
-
-    position: absolute;
-    font-size: 0.8rem;
-    transform: translateX(200%);
-    top: -7px;
-    padding-inline: 5px;
-    background-color: inherit;
+  position: absolute;
+  font-size: 0.8rem;
+  transform: translateX(200%);
+  top: -7px;
+  padding-inline: 5px;
+  background-color: inherit;
 }
 
 .input__group-input--modal {
@@ -1088,7 +1089,9 @@ body.is-lock {
   padding: 2.5rem 3.125rem;
   transform: translateY(-50%);
   opacity: 0;
-  transition: transform 0.3s, opacity 0.3s;
+  transition:
+    transform 0.3s,
+    opacity 0.3s;
 }
 
 .modal.is-open .modal__dialog {
@@ -1128,11 +1131,15 @@ body.is-lock {
   border: 1px solid #ebebf0;
 }
 
-.about-page {
-  padding-block-start: 94px;
+.main--inner {
+  padding-block-start: 5.875rem;
 }
+/* .about-page {
+  
+} */
 
 .hero {
+  padding-inline: 15px;
   padding-block: 3.125rem;
 }
 
@@ -1171,7 +1178,7 @@ body.is-lock {
 
 .hero__title {
   font-weight: 400;
-  font-size: 80px;
+  font-size: 5rem;
   line-height: 1.2;
   margin-block-end: 1.6rem;
 }
@@ -1222,8 +1229,12 @@ body.is-lock {
   color: inherit;
 }
 
-.section--spaced {
+.page-inner .section--spaced {
   margin-block-end: 6.25rem;
+}
+
+.page-inner .own-brands {
+  margin-block-end: 13.875rem;
 }
 
 @media (max-width: 1700px) {
@@ -1451,10 +1462,30 @@ body.is-lock {
     margin-block-end: 2.7rem;
   }
 
-  .section {
-    margin-block: 8.3rem;
+  .hero__title {
+    font-size: 48px;
   }
 
+  .section {
+    /*не мойму, изначально маргин только вниз, но на этом разрешении и вверх и вних, пока закоменчу, потом разберусь*/
+    /* margin-block: 8.3rem; */
+    margin-block-end: 8.3rem;
+  }
+  .main-page.own-brands {
+    margin-block-end: 148px;
+  }
+
+  .hero {
+    padding-block: 3.7rem;
+  }
+
+  .page-inner .section--spaced {
+    margin-block-end: 4.25rem;
+  }
+
+  .page-inner .own-brands {
+    margin-block-end: 7.875rem;
+  }
   .steps__inner {
     padding-inline: 0;
   }

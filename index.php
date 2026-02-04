@@ -12,6 +12,7 @@
     <script src="./src/just-validate.production.min.js" defer></script>
     <script src="./src/index.js" defer></script>
     <title>Aliance Production</title>
+    <?php $page_class = 'page-home'?>
 </head>
 
 <body class="main-page">
@@ -20,7 +21,8 @@
             <div class="mobile__menu-inner">
                 <ul class="mobile__menu-list">
                     <li class="mobile__menu-item"><a href="./about.php" class="mobile__menu-link">О компании</a></li>
-                    <li class="mobile__menu-item"><a href="#" class="mobile__menu-link">Контрактное производство</a>
+                    <li class="mobile__menu-item"><a href="./contracts.php" class="mobile__menu-link">Контрактное
+                            производство</a>
                         <ul class="mobile__submenu-list">
                             <li class="mobile__submenu-item"><a href="#" class="mobile__submenu-link">Автомобильная
                                     химия</a>
@@ -41,7 +43,7 @@
                             </li>
                         </ul>
                     </li>
-                    <li class="mobile__menu-item"><a href="#" class="mobile__menu-link">Собственные марки</a>
+                    <li class="mobile__menu-item"><a href="./trademarks.php" class="mobile__menu-link">Собственные марки</a>
                         <ul class="mobile__submenu-list">
                             <li class="mobile__submenu-item"><a href="#" class="mobile__submenu-link">Автохимия
                                     AG-Tech</a>
@@ -100,9 +102,10 @@
             <ul class="header__navigation-list">
                 <li class="header__navigation-item"><a href="./about.php"
                         class="header__navigation-link">О&nbsp;компании</a></li>
-                <li class="header__navigation-item"><a href="#" class="header__navigation-link">Контрактное
+                <li class="header__navigation-item"><a href="./contracts.php"
+                        class="header__navigation-link">Контрактное
                         производство</a></li>
-                <li class="header__navigation-item"><a href="#" class="header__navigation-link">Собственные торговые
+                <li class="header__navigation-item"><a href="./trademarks.php" class="header__navigation-link">Собственные торговые
                         марки</a></li>
                 <li class="header__navigation-item"><a href="#" class="header__navigation-link">Новости</a></li>
                 <li class="header__navigation-item"><a href="#" class="header__navigation-link">Контакты</a></li>
@@ -124,7 +127,7 @@
             <div class="header__content">
                 <div class="separator"></div>
                 <h1 class="header__title">
-                    <?php echo "Комплексное обеспечение товарами и расходными материалами бизнеса"; ?>
+                    Комплексное обеспечение товарами и&nbsp;расходными материалами бизнеса
                 </h1>
                 <p class="header__text">Высокий уровень вовлечения представителей целевой аудитории является четким
                     доказательством простого факта: высококачественный прототип будущего проекта напрямую зависит от
@@ -307,30 +310,7 @@
                 </ul>
             </div>
         </section>
-        <section class="section own-brands">
-            <div class="container">
-                <div class="separator"></div>
-                <h2 class="section__title">собственные марки</h2>
-                <ul class="card__list card__list--brands">
-                    <li class="card__item card__item--brands">
-                        <svg class="card__logo" width="180" height="180">
-                            <use href="./images/sprites.svg#10"></use>
-                        </svg>
-                        <h3 class="card__title">Автохимия AG-Tech</h3>
-                        <p class="card__description">Для современного мира разбавленное изрядной долей эмпатии,
-                            рациональное мышление создаёт предпосылки для поставленных обществом задач.</p>
-                    </li>
-                    <li class="card__item card__item--brands">
-                        <svg class="card__logo" width="180" height="180">
-                            <use href="./images/sprites.svg#11"></use>
-                        </svg>
-                        <h3 class="card__title">Автохимия AP</h3>
-                        <p class="card__description">Для современного мира разбавленное изрядной долей эмпатии,
-                            рациональное мышление создаёт предпосылки для поставленных обществом задач.</p>
-                    </li>
-                </ul>
-            </div>
-        </section>
+        <?php $block_title="собственные марки"; include_once('./template-parts/trademarks-block.php') ?>
         <section class="section founder">
             <img src="./images/founder-bg.jpg" alt="founder__photo" class="founder__photo" loading="lazy">
             <div class="container">
@@ -547,8 +527,9 @@
                         <label class="input__group-label input__group-label--modal" for="user-name-modal">Имя</label>
                     </div>
                     <div class="input__group input__group--modal">
-                        <input id="user-phone-modal" type="tel" class="input__group-input input__group-input--modal phone-mask"
-                            name="userphone" placeholder=" " required>
+                        <input id="user-phone-modal" type="tel"
+                            class="input__group-input input__group-input--modal phone-mask" name="userphone"
+                            placeholder=" " required>
                         <label class="input__group-label input__group-label--modal" for="user-phone-modal">Номер
                             телефона</label>
                     </div>
@@ -580,7 +561,7 @@
             </button>
             <p class="modal__text">Наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие вопросы и
                 поможем даже в самых сложных случаях!</p>
-                     <a href="./index.php"class="button button--cta button-modal">Вернуться на главную</a>
+            <a href="./index.php" class="button button--cta button-modal">Вернуться на главную</a>
         </div>
     </div>
 
