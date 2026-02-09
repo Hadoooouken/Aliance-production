@@ -50,7 +50,7 @@
                 <p class="footer__copyright">&#169;
                     <?php echo date('d.m.Y') ?> «Aliance Production». Все права защищены.
                 </p>
-                <a href="#" class="footer__policy">Политики конфиденциальности</a>
+                <a href="./privacy-policy.php" class="footer__policy">Политики конфиденциальности</a>
             </div>
             <div class="footer__author">
                 <span class="footer__made-in">Сделано в

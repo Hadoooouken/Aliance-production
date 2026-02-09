@@ -16,7 +16,5 @@ include_once('./header-page.php'); ?>
     <?php include_once('./cta.php'); ?>
 </main>
 <?php include_once('./footer.php'); ?>
-<script src="./src/swiper-bundle.min.js" defer></script>
-<script src="./src/just-validate.production.min.js" defer></script>
-<script src="./src/index.js" defer></script>
+<?php include_once('./template-parts/modals.php') ?>
 </body>

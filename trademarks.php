@@ -14,4 +14,5 @@ include_once("./header-page.php");
     ?>
 </main>
 <?php include_once("./footer.php") ?>
+<?php include_once('./template-parts/modals.php') ?>
 </body>

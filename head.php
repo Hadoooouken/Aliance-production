@@ -11,5 +11,6 @@
     <script src="./src/swiper-bundle.min.js" defer></script>
     <script src="./src/just-validate.production.min.js" defer></script>
     <script src="./src/index.js" defer></script>
-    <title> <?= $page_title ?>- Aliance Production</title>
+    <title><?= isset($page_title) ? $page_title . ' – Aliance Production' : 'Aliance Production' ?></title>
+
 </head>

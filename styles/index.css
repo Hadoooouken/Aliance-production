@@ -504,7 +504,7 @@ body.is-lock {
 }
 
 .page-contacts .contacts__item {
-  column-gap: 8px
+  column-gap: 8px;
 }
 
 .socials--mobile {
@@ -973,8 +973,8 @@ body.is-lock {
   font-size: 3rem;
 }
 
-.page-contacts .footer__text{
- font-size: 1.375rem;
+.page-contacts .footer__text {
+  font-size: 1.375rem;
 }
 
 .page-contacts .contacts__icon {
@@ -1199,6 +1199,8 @@ body.is-lock {
   font-size: 5rem;
   line-height: 1.2;
   margin-block-end: 1.6rem;
+  /* для переноса в секции приватности */
+/* overflow-wrap: break-word */
 }
 
 .hero__title--light {
@@ -1285,6 +1287,19 @@ body.is-lock {
   color: #5c8ee5;
   font-weight: 600;
   text-decoration: none;
+}
+
+.map__wrapper:not(.is-active) * {
+  pointer-events: none;
+}
+
+.privacy__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #292d33;
+  margin-bottom: 18px;
+  word-spacing: 1.2px;
 }
 
 @media (max-width: 1700px) {
@@ -1517,8 +1532,6 @@ body.is-lock {
   }
 
   .section {
-    /*не мойму, изначально маргин только вниз, но на этом разрешении и вверх и вних, пока закоменчу, потом разберусь*/
-    /* margin-block: 8.3rem; */
     margin-block-end: 8.3rem;
   }
   .main-page.own-brands {
@@ -1534,8 +1547,8 @@ body.is-lock {
   }
 
   .page-inner .section--spaced-lg {
- margin-block-end: 7.875rem;
-}
+    margin-block-end: 7.875rem;
+  }
 
   .steps__inner {
     padding-inline: 0;
@@ -1889,11 +1902,17 @@ body.is-lock {
   }
 
   .page-contacts .footer__phone {
-  font-size: 36px;
-}
+    font-size: 36px;
+  }
 
-.page-contacts .footer__text{
- font-size: 20px;
+  .page-contacts .footer__text {
+    font-size: 20px;
+  }
+
+  .privacy__text {
+ font-size: 14px;
+margin-bottom: 6px;
+  word-spacing: 1.2px;
 }
 }
 

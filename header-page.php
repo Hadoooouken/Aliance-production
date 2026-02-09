@@ -35,7 +35,7 @@
         </svg>
         <a class="header__contacts-link" href="tel:+74996861014">+7 (499) 686-10-14</a>
     </div>
-    <button class="header__nav-button button" data-toggle="modal">
+    <button class="header__nav-button button" data-js-header-modal-button>
         <svg class="header__contacts-icon" width="24" height="24">
             <use href="./images/sprites.svg#phone-icon"></use>
         </svg>

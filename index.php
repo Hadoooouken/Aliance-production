@@ -1,4 +1,6 @@
-<?php $page_class = 'main-page' ?>
+<?php $page_class = 'main-page';
+?>
+
 
 <?php include_once('./head.php') ?>
 <?php include_once('./body.php') ?>
@@ -130,146 +132,11 @@
     <?php $block_title = "Контрактное производство";
     include_once('./template-parts/production-block.php') ?>
     <?php $block_title = "собственные марки";
-    include_once('./template-parts/trademarks-block.php') ?>
-    <section class="section founder">
-        <img src="./images/founder-bg.jpg" alt="founder__photo" class="founder__photo" loading="lazy">
-        <div class="container">
-            <div class="founder__content-wrapper">
-                <div class="founder__content">
-                    <div class="separator"></div>
-                    <h2 class="section__title founder__title">Отношение к делу<br>и к клиентам</h2>
-                    <p class="founder__text">
-                        Кстати, интерактивные прототипы описаны максимально подробно. Повседневная практика
-                        показывает,
-                        что укрепление и развитие внутренней структуры говорит о возможностях соответствующих
-                        условий
-                        активизации. Внезапно, независимые государства, которые представляют собой яркий пример
-                        континентально-европейского типа политической культуры, будут подвергнуты целой серии
-                        независимых исследований. С учётом сложившейся международной обстановки, синтетическое
-                        тестирование выявляет срочную потребность системы массового участия.
-                    </p>
-                    <p class="founder__text">
-                        А ещё действия представителей оппозиции, превозмогая сложившуюся непростую экономическую
-                        ситуацию, в равной степени предоставлены сами себе. Не следует, однако, забывать, что
-                        выбранный
-                        нами инновационный путь в значительной степени обусловливает важность дальнейших направлений
-                        развития.
-                    </p>
-                    <a href="#" class="button__link button__link--founder">Подробнее о компании</a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="section clients">
-        <div class="container">
-            <div class="separator"></div>
-            <div class="clients__wrapper">
-                <div class="clients__content">
-                    <h2 class="section__title clients__title">Производим аэрозольную продукцию для разных сфер</h2>
-                    <ul class="clients__list">
-                        <li class="clients__item">
-                            <svg class="clients__icon" width="30" height="30">
-                                <use href="./images/sprites.svg#20"></use>
-                            </svg>
-                            <span class="clients__text">Химические производства</span>
-                        </li>
-                        <li class="clients__item">
-                            <svg class="clients__icon" width="30" height="30">
-                                <use href="./images/sprites.svg#21"></use>
-                            </svg>
-                            <span class="clients__text">Автомойки</span>
-                        </li>
-                        <li class="clients__item">
-                            <svg class="clients__icon" width="30" height="30">
-                                <use href="./images/sprites.svg#22"></use>
-                            </svg>
-                            <span class="clients__text">Пищевая продукция</span>
-                        </li>
-                        <li class="clients__item">
-                            <svg class="clients__icon" width="30" height="30">
-                                <use href="./images/sprites.svg#23"></use>
-                            </svg>
-                            <span class="clients__text">Лаки и краски</span>
-                        </li>
-                        <li class="clients__item">
-                            <svg class="clients__icon" width="30" height="30">
-                                <use href="./images/sprites.svg#24"></use>
-                            </svg>
-                            <span class="clients__text">Косметические средства</span>
-                        </li>
-                        <li class="clients__item">
-                            <svg class="clients__icon" width="30" height="30">
-                                <use href="./images/sprites.svg#25"></use>
-                            </svg>
-                            <span class="clients__text">Автомобильная косметика</span>
-                        </li>
-                        <li class="clients__item">
-                            <svg class="clients__icon" width="30" height="30">
-                                <use href="./images/sprites.svg#26"></use>
-                            </svg>
-                            <span class="clients__text">Косметика по уходу за одеждой</span>
-                        </li>
-                        <li class="clients__item">
-                            <svg class="clients__icon" width="30" height="30">
-                                <use href="./images/sprites.svg#27"></use>
-                            </svg>
-                            <span class="clients__text">Косметика по уходу за обувью</span>
-                        </li>
-                        <li class="clients__item">
-                            <svg class="clients__icon" width="30" height="30">
-                                <use href="./images/sprites.svg#28"></use>
-                            </svg>
-                            <span class="clients__text">Строительные материалы</span>
-                        </li>
-                        <li class="clients__item">
-                            <svg class="clients__icon" width="30" height="30">
-                                <use href="./images/sprites.svg#29"></use>
-                            </svg>
-                            <span class="clients__text">И многих других</span>
-                        </li>
-                    </ul>
-                </div>
-                <ul class="clients-logo__list">
-                    <li class="clients-logo__item">
-                        <img class="clients-logo__image" src="./images/clients-icon-1.png" alt="" width="70"
-                            height="70">
-                    </li>
-                    <li class="clients-logo__item">
-                        <img class="clients-logo__image" src="./images/clients-icon-1.png" alt="" width="70"
-                            height="70">
-                    </li>
-                    <li class="clients-logo__item">
-                        <img class="clients-logo__image" src="./images/clients-icon-1.png" alt="" width="70"
-                            height="70">
-                    </li>
-                    <li class="clients-logo__item">
-                        <img class="clients-logo__image" src="./images/clients-icon-1.png" alt="" width="70"
-                            height="70">
-                    </li>
-                    <li class="clients-logo__item">
-                        <img class="clients-logo__image" src="./images/clients-icon-1.png" alt="" width="70"
-                            height="70">
-                    </li>
-                    <li class="clients-logo__item">
-                        <img class="clients-logo__image" src="./images/clients-icon-1.png" alt="" width="70"
-                            height="70">
-                    </li>
-                    <li class="clients-logo__item">
-                        <img class="clients-logo__image" src="./images/clients-icon-1.png" alt="" width="70"
-                            height="70">
-                    </li>
-                    <li class="clients-logo__item">
-                        <img class="clients-logo__image" src="./images/clients-icon-1.png" alt="" width="70"
-                            height="70">
-                    </li>
-                    <li class="clients-logo__item">
-                        <img class="clients-logo__image" src="./images/clients-icon-1.png" alt="" width="70"
-                            height="70">
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </section>
+    include_once('./template-parts/trademarks-block.php'); ?>
+    <?php
+    include_once('./template-parts/founder-block.php'); ?>
+    <?php
+    include_once('./template-parts/clients-block.php'); ?>
     <section class="section blog">
         <div class="container">
             <div class="separator"></div>
@@ -329,61 +196,7 @@
     <?php include_once('./cta.php') ?>
 </main>
 <?php include_once('./footer.php') ?>
-<div class="modal modal__question">
-    <div class="modal__dialog">
-        <h2 class="modal__title">Есть вопросы?</h2>
-        <button class="modal__close-button" type="button" data-js-header-close-modal-button>
-            <svg width="18" height="18">
-                <use href="./images/sprites.svg#closeButton"></use>
-            </svg>
-        </button>
-        <p class="modal__text">Оставьте заявку, наш менеджер свяжется с Вами в ближайшее время ответит на все
-            интересующие вопросы и поможем даже в самых сложных случаях!</p>
-        <form action="./handler.php" method="POST" class="modal__form">
-            <div class="input__group-wrapper input__group-wrapper--vertical">
-                <div class="input__group input__group--modal">
-                    <input type="text" class="input__group-input input__group-input--modal" id="user-name-modal"
-                        name="username" placeholder=" " required>
-                    <label class="input__group-label input__group-label--modal" for="user-name-modal">Имя</label>
-                </div>
-                <div class="input__group input__group--modal">
-                    <input id="user-phone-modal" type="tel"
-                        class="input__group-input input__group-input--modal phone-mask" name="userphone" placeholder=" "
-                        required>
-                    <label class="input__group-label input__group-label--modal" for="user-phone-modal">Номер
-                        телефона</label>
-                </div>
-            </div>
-            <div class="cta__form-footer cta__form-footer--vertical">
-                <button type="submit" class="button button--cta button-modal">Отправить заявку</button>
-                <div class="notify">
-                    <svg class="notify__icon" width="14" height="14">
-                        <use href="./images/sprites.svg#notify-icon"></use>
-                    </svg>
-                    <p class="cta__form-notify">
-                        Обращаясь к нам вы получаете не только профессиональную работу, но и абсолютную
-                        конфиденциальность информации!
-                    </p>
-                </div>
-            </div>
-        </form>
-    </div>
-</div>
-
-<div class="modal modal--success">
-    <div class="modal__dialog ">
-        <img src="./images/modal-image/thanks_illu.png" alt="">
-        <h2 class="modal__title ">Спасибо за заявку!</h2>
-        <button class="modal__close-button" type="button" data-js-header-close-modal-button>
-            <svg width="18" height="18">
-                <use href="./images/sprites.svg#closeButton"></use>
-            </svg>
-        </button>
-        <p class="modal__text">Наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие вопросы и
-            поможем даже в самых сложных случаях!</p>
-        <a href="./index.php" class="button button--cta button-modal">Вернуться на главную</a>
-    </div>
-</div>
+<?php include_once('./template-parts/modals.php') ?>
 
 </body>
 
