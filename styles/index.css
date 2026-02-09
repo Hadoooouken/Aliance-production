@@ -1071,6 +1071,10 @@ body.is-lock {
   color: #828a99;
 }
 
+.footer__policy:hover {
+  color: #5c8ee5;
+}
+
 .footer__author {
   display: flex;
   align-items: center;
