@@ -269,6 +269,7 @@ const swiperBlog = new Swiper('.swiper__blog', {
     speed: 400,
     autoHeight: false,
     loop: true,
+    loopedSlides: 2,
     navigation: {
         nextEl: '.js-slider-blog-next',
         prevEl: '.js-slider-blog-prev',

@@ -22,7 +22,12 @@
                     нами инновационный путь в значительной степени обусловливает важность дальнейших направлений
                     развития.
                 </p>
-                <a href="#" class="button__link button__link--founder">Подробнее о компании</a>
+                <?php
+                if ($page_class === "main-page") {
+                    echo '<a href="#" class="button__link button__link--founder">Подробнее о компании</a>';
+                }
+                ?>
+
             </div>
         </div>
     </div>

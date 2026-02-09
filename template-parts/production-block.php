@@ -1,8 +1,7 @@
-<section class="section production">
+<section class="section contract-production">
 
     <div class="container">
         <?php
-
         if (!empty($block_title)) {
             echo '<div class="separator"></div>';
             echo '<h2 class="section__title">' . $block_title . '</h2>';
