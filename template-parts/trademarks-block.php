@@ -1,5 +1,3 @@
-
-
 <section class="section section--spaced-lg">
     <div class="container">
         <?php
