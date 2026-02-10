@@ -535,6 +535,7 @@ body.is-lock {
 .nav-arrows__icon {
   width: 36px;
   height: 24px;
+  color: #fff;
 }
 
 .nav-arrows__button--sm {
