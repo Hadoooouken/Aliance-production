@@ -26,7 +26,7 @@ include_once('./header-page.php') ?>
                 </div>
             </div>
             <?php $slider_variant = 'features-slider--inner';
-            include_once('./template-parts/info-swiper-block.php') ?>
+            include_once('./template-parts/features-swiper-block.php') ?>
         </div>
     </section>
     <section class="section production">

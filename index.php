@@ -15,7 +15,7 @@
             <a href="./" class="button header__button" data-js-header-modal-button>Подробнее о компании</a>
         </div>
         <?php $slider_variant = 'features-slider--inner';
-        include_once('./template-parts/info-swiper-block.php') ?>
+        include_once('./template-parts/features-swiper-block.php') ?>
     </div>
 </header>
 <main>
