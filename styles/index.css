@@ -538,6 +538,10 @@ body.is-lock {
   color: #fff;
 }
 
+.arrow {
+    color: #fff;
+}
+
 .nav-arrows__button--sm {
   padding: 10px 15px;
 }
