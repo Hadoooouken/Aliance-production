@@ -24,7 +24,7 @@
         <li class="header__navigation-item"><a href="./trademarks.php" class="header__navigation-link">Собственные
                 торговые
                 марки</a></li>
-        <li class="header__navigation-item"><a href="#" class="header__navigation-link">Новости</a></li>
+        <li class="header__navigation-item"><a href="./blog.php" class="header__navigation-link">Новости</a></li>
         <li class="header__navigation-item"><a href="./contacts.php" class="header__navigation-link">Контакты</a>
         </li>
     </ul>

@@ -8,7 +8,7 @@ include_once('./head.php');
 include_once('./body.php');
 include_once('./header-page.php'); ?>
 <main class="main--inner">
-    <?php include_once('./page-hero.php'); ?>
+    <?php include_once('./template-parts/page-hero.php'); ?>
     <section class="section privacy">
         <div class="container">
 

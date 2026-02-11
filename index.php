@@ -24,18 +24,6 @@
             <div class="separator"></div>
             <h2 class="section__title">схема работы</h2>
             <?php include_once('./template-parts/steps-swiper-block.php') ?>
-            <div class="nav-arrows slider__steps-wrapper">
-                <button class="nav-arrows__button nav-arrows__button--sm nav-arrows__button--prev js-slider-steps-prev">
-                    <svg class="arrow" width="30" height="20">
-                        <use href="./images/sprites.svg#arrow-prev"></use>
-                    </svg>
-                </button>
-                <button class="nav-arrows__button nav-arrows__button--sm nav-arrows__button--next js-slider-steps-next">
-                    <svg class="arrow" width="30" height="20">
-                        <use href="./images/sprites.svg#arrow-next"></use>
-                    </svg>
-                </button>
-            </div>
     </section>
     <?php $block_title = "Контрактное производство";
     include_once('./template-parts/production-block.php') ?>
@@ -57,7 +45,6 @@
 </main>
 <?php include_once('./footer.php') ?>
 <?php include_once('./template-parts/modals.php') ?>
-
 </body>
 
 </html>

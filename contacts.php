@@ -8,7 +8,7 @@ $page_class = 'page-inner page-contacts';
  include_once('./body.php');
 include_once('./header-page.php'); ?>
 <main class="main--inner">
-    <?php include_once('./page-hero.php'); ?>
+    <?php include_once('./template-parts/page-hero.php'); ?>
     <section class="section section--spaced-lg">
         <div class="container">
             <?php include_once('./template-parts/contacts-block.php');
