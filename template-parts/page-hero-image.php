@@ -2,7 +2,7 @@
     <div class="hero <?= $header_style ?> hero--small">
         <div class="container">
             <div class="hero__wrapper">
-                <div class="hero__content">
+                <div class="hero__content hero__content--image">
                     <div class="separator"></div>
                     <h1 class="section__title hero__title <?= $page_title_color ?>"><?= $page_title ?></h1>
                     <ul class="breadcrumb">

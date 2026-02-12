@@ -116,7 +116,7 @@ include_once('./header-page.php') ?>
             <div class="autohim-types__wrapper">
                 <div class="autohim-types__content">
                     <div class="separator"></div>
-                    <h2 class="section__title production__title">Виды автохимии</h2>
+                    <h2 class="section__title autohim-types__title">Виды автохимии</h2>
                     <p class="autohim-types__text">
                         Но современная методология разработки позволяет оценить значение прогресса профессионального
                         сообщества. Есть над чем задуматься: тщательные исследования конкурентов набирают популярность
