@@ -564,10 +564,15 @@ body.is-lock {
 }
 
 .card__item--product {
+  flex: 0 0 calc(100% / 3);
+}
+
+.card__item-link {
+  display: flex;
   flex-direction: column;
   row-gap: 46px;
   justify-content: space-between;
-  flex: 0 0 calc(100% / 3);
+  text-decoration: none;
 }
 
 .card__item--brands {
@@ -1566,7 +1571,7 @@ width: 100vw;
 }
 
 .autohim-types__title {
-  margin-block-end: 1.875rem
+  margin-block-end: 1.875rem;
 }
 
 .autohim-types__text {
