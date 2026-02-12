@@ -24,7 +24,7 @@
                 </p>
                 <?php
                 if ($page_class === "main-page") {
-                    echo '<a href="#" class="button__link button__link--founder">Подробнее о компании</a>';
+                    echo '<a href="./about.php" class="button__link button__link--founder">Подробнее о компании</a>';
                 }
                 ?>
 

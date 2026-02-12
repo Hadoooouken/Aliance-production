@@ -19,10 +19,6 @@
     </div>
 </header>
 <main>
-    <section class="section section--light">
-        <div class="container">
-            <div class="separator"></div>
-            <h2 class="section__title">схема работы</h2>
             <?php include_once('./template-parts/steps-swiper-block.php') ?>
     </section>
     <?php $block_title = "Контрактное производство";
