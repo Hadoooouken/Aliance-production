@@ -3,9 +3,9 @@ $page_title = "О компании";
 $header_style = "hero--gray";
 $breadcrumb_color = "breadcrumb__item";
 $page_class = 'page-inner';
-include_once('./head.php');
-include_once('./body.php');
-include_once('./header-page.php') ?>
+include_once('./template-parts/head.php');
+include_once('./template-parts/body.php');
+include_once('./template-parts/header-page.php') ?>
 <main class="main--inner">
     <?php include_once('./template-parts/page-hero.php') ?>
     <section class="section experts">
@@ -25,9 +25,9 @@ include_once('./header-page.php') ?>
                     </p>
                 </div>
             </div>
-            <?php $slider_variant = 'features-slider--inner';
-            include_once('./template-parts/features-swiper-block.php') ?>
         </div>
+        <?php $slider_variant = 'features-slider--inner';
+        include_once('./template-parts/features-swiper-block.php') ?>
     </section>
     <section class="section production">
         <div class="container">
@@ -94,8 +94,8 @@ include_once('./header-page.php') ?>
     <?php include_once('./template-parts/founder-block.php') ?>
     <?php include_once('./template-parts/research-block.php') ?>
     <?php include_once('./template-parts/clients-block.php') ?>
-    <?php include_once('./cta.php') ?>
+    <?php include_once('./template-parts/cta.php') ?>
 </main>
-<?php include_once('./footer.php') ?>
+<?php include_once('./template-parts/footer.php') ?>
 <?php include_once('./template-parts/modals.php') ?>
 </body>

@@ -1,8 +1,8 @@
 <?php $page_class = 'main-page'; ?>
-<?php include_once('./head.php') ?>
-<?php include_once('./body.php') ?>
+<?php include_once('./template-parts/head.php'); ?>
+<?php include_once('./template-parts/body.php') ?>
 <header class="header header__image">
-    <?php include_once('./header-page.php') ?>
+    <?php include_once('./template-parts/header-page.php') ?>
     <div class="container">
         <div class="header__content">
             <div class="separator"></div>
@@ -19,7 +19,7 @@
     </div>
 </header>
 <main>
-            <?php include_once('./template-parts/steps-swiper-block.php') ?>
+    <?php include_once('./template-parts/steps-swiper-block.php') ?>
     </section>
     <?php $block_title = "Контрактное производство";
     include_once('./template-parts/production-block.php') ?>
@@ -37,9 +37,9 @@
             include_once('./template-parts/blog-swiper-block.php'); ?>
         </div>
     </section>
-    <?php include_once('./cta.php') ?>
+    <?php include_once('./template-parts/cta.php') ?>
 </main>
-<?php include_once('./footer.php') ?>
+<?php include_once('./template-parts/footer.php') ?>
 <?php include_once('./template-parts/modals.php') ?>
 </body>
 

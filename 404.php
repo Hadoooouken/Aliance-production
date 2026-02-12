@@ -3,9 +3,9 @@ $page_title = "404";
 $header_style = "hero--gray";
 $breadcrumb_color = "breadcrumb__item";
 $page_class = 'page-inner';
-include_once('./head.php');
-include_once('./body.php');
-include_once('./header-page.php') ?>
+include_once('./template-parts/head.php');
+include_once('./template-parts/body.php');
+include_once('./template-parts/header-page.php') ?>
 <main class="main--inner">
     <div class="container">
         <div class="not-found">

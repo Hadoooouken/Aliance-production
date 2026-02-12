@@ -2,7 +2,7 @@
     <div class="background-grey section__cta">
         <img class="cta__image" src="./images/cta-img.png" alt="" loading="lazy">
         <div class="cta__form-wrapper container">
-            <form action="./handler.php" method="POST" class="cta__form">
+            <form action="./src/handler.php" method="POST" class="cta__form">
                 <h2 class="section__title cta__title">Хотите сотрудничать?</h2>
                 <p class="cta__description">Оставьте заявку, наш менеджер свяжется с Вами в ближайшее время
                     ответит на все интересующие вопросы и поможем даже в самых сложных случаях!</p>

@@ -8,7 +8,7 @@
         </button>
         <p class="modal__text">Оставьте заявку, наш менеджер свяжется с Вами в ближайшее время ответит на все
             интересующие вопросы и поможем даже в самых сложных случаях!</p>
-        <form action="./handler.php" method="POST" class="modal__form">
+        <form action="./src/handler.php" method="POST" class="modal__form">
             <div class="input__group-wrapper input__group-wrapper--vertical">
                 <div class="input__group input__group--modal">
                     <input type="text" class="input__group-input input__group-input--modal" id="user-name-modal"
