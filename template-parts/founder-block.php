@@ -27,7 +27,6 @@
                     echo '<a href="./about.php" class="button__link button__link--founder">Подробнее о компании</a>';
                 }
                 ?>
-
             </div>
         </div>
     </div>

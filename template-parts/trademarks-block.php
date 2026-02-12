@@ -9,21 +9,26 @@
         ?>
         <ul class="card__list card__list--brands">
             <li class="card__item card__item--brands">
-                <svg class="card__logo" width="180" height="180">
-                    <use href="./images/sprites.svg#10"></use>
-                </svg>
-                <h3 class="card__title">Автохимия AG-Tech</h3>
-                <p class="card__description">Для современного мира разбавленное изрядной долей эмпатии,
-                    рациональное мышление создаёт предпосылки для поставленных обществом задач.</p>
+                <a href="./ag-tech.php" class="card__item--brands-link">
+                    <svg class="card__logo" width="180" height="180">
+                        <use href="./images/sprites.svg#10"></use>
+                    </svg>
+                    <h3 class="card__title">Автохимия AG-Tech</h3>
+                    <p class="card__description">Для современного мира разбавленное изрядной долей эмпатии,
+                        рациональное мышление создаёт предпосылки для поставленных обществом задач.</p>
+                </a>
             </li>
             <li class="card__item card__item--brands">
-                <svg class="card__logo" width="180" height="180">
-                    <use href="./images/sprites.svg#11"></use>
-                </svg>
-                <h3 class="card__title">Автохимия AP</h3>
-                <p class="card__description">Для современного мира разбавленное изрядной долей эмпатии,
-                    рациональное мышление создаёт предпосылки для поставленных обществом задач.</p>
+                <a href="./ag-tech.php" class="card__item--brands-link">
+                    <svg class="card__logo" width="180" height="180">
+                        <use href="./images/sprites.svg#11"></use>
+                    </svg>
+                    <h3 class="card__title">Автохимия AP</h3>
+                    <p class="card__description">Для современного мира разбавленное изрядной долей эмпатии,
+                        рациональное мышление создаёт предпосылки для поставленных обществом задач.</p>
+                </a>
             </li>
         </ul>
     </div>
 </section>
+
