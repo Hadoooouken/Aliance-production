@@ -11,8 +11,10 @@ include_once('./template-parts/header-page.php'); ?>
     <?php include_once('./template-parts/page-hero.php'); ?>
     <section class="section section--spaced-lg">
         <div class="container">
-            <?php include_once('./template-parts/contacts-block.php');
-            include_once('./template-parts/map-block.php'); ?>
+            <div class="contacts-wrapper">
+                <?php include_once('./template-parts/contacts-block.php'); ?>
+            </div>
+            <?php include_once('./template-parts/map-block.php'); ?>
 
         </div>
     </section>
