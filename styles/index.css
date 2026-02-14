@@ -1,6 +1,3 @@
-/* .header__nav-button {
-  height: calc(100% + 15px);
-} */
 html {
   font-size: 1rem;
 }
@@ -183,7 +180,8 @@ body {
 }
 
 .header__nav-button {
-  height: 100%;
+  /* height: 100%; */
+   height: calc(100% + 2px);
 }
 
 .header__button {
@@ -277,6 +275,29 @@ body {
   display: flex;
 }
 
+.page-inner {
+  overflow-x: hidden;
+}
+
+.page-inner .swiper__blog {
+  width: 100%;
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
+}
+
+.page-inner .swiper {
+  overflow: visible;
+}
+
+.page-inner .swiper-wrapper {
+  overflow: visible;
+}
+
+.page-inner .blog-card__footer {
+  justify-content: flex-end;
+}
+
+
 .features__slider-item {
   display: flex;
   flex-direction: column;
@@ -322,11 +343,6 @@ body {
 .page-inner .slider-button-next {
   border: 1px solid rgba(235, 235, 240);
 }
-
-/* .page-inner.slider-button-prev, .slider-button-next {
-  border: 1px solid rgba(235, 235, 240);
-
-} */
 
 .features__slider-item:not(:last-child) {
   border-right: none;
@@ -745,11 +761,6 @@ body.is-lock {
   padding-inline: 15px;
   margin-block-end: 14rem;
 }
-
-/* .blog__wrapper {
-  margin-block-end: 14rem;
-  
-} */
 
 .blog-card__list {
   display: grid;
@@ -1191,10 +1202,6 @@ body.is-lock {
   padding-block: 3.125rem;
 }
 
-/* .hero__content--image {
-
-} */
-
 .hero__image {
   align-self: flex-end;
 }
@@ -1235,8 +1242,6 @@ body.is-lock {
   font-size: 5rem;
   line-height: 1.2;
   margin-block-end: 1.6rem;
-  /* для переноса в секции приватности */
-  /* overflow-wrap: break-word */
 }
 
 .hero__title--light {
@@ -1297,10 +1302,6 @@ body.is-lock {
 .page-inner .seo {
   margin-bottom: 14.5rem;
 }
-
-/* .page-inner .production {
-  margin-bottom: 6.25rem;
-} */
 
 .seo__title {
   font-family: 'Noto Sans', sans-serif;
@@ -1419,6 +1420,14 @@ body.is-lock {
   line-height: 1.6;
 }
 
+.research {
+  padding-inline: 0;
+}
+
+.research__wrapper {
+  padding-inline: 15px;
+}
+
 .research__title {
   max-width: 37.5rem;
   margin-bottom: 30px;
@@ -1438,22 +1447,7 @@ body.is-lock {
   color: #828a99;
 }
 
-/* дефолтное поведение */
-.swiper {
-  overflow: hidden;
-}
 
-/* внутренние страницы */
-/* .page-inner .swiper__blog {
-width: 100vw;
-
-  overflow: visible;
-} */
-
-/* .page-inner .swiper-wrapper {
-  overflow: visible; 
-}
-} */
 .page-inner .blog-card__footer {
   justify-content: end;
 }

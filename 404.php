@@ -20,6 +20,6 @@ include_once('./template-parts/header-page.php') ?>
     </div>
 </main>
 <hr class="divider-line divider-line--footer">
-<?php include_once('./footer.php') ?>
+<?php include_once('./template-parts/footer.php') ?>
 <?php include_once('./template-parts/modals.php') ?>
 </body>

@@ -279,6 +279,8 @@ const swiperBlog = new Swiper('.swiper__blog', {
 
 
 
+
+
 /* Создаем префикс +7, даже если вводят 8 или 9 */
 const prefixNumber = (str) => {
     /* если вводят семерку, добавляем ей скобку */

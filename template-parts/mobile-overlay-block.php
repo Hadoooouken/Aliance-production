@@ -6,21 +6,21 @@
                 <li class="mobile__menu-item"><a href="./contracts.php" class="mobile__menu-link">Контрактное
                         производство</a>
                     <ul class="mobile__submenu-list">
-                        <li class="mobile__submenu-item"><a href="#" class="mobile__submenu-link">Автомобильная
+                        <li class="mobile__submenu-item"><a href="./contracts.php" class="mobile__submenu-link">Автомобильная
                                 химия</a>
                         </li>
-                        <li class="mobile__submenu-item"><a href="#" class="mobile__submenu-link">Бытовая химия</a>
+                        <li class="mobile__submenu-item"><a href="./contracts.php" class="mobile__submenu-link">Бытовая химия</a>
                         </li>
-                        <li class="mobile__submenu-item"><a href="#"
+                        <li class="mobile__submenu-item"><a href="./contracts.php"
                                 class="mobile__submenu-link">Дезинфицирующие&nbsp;средства</a>
                         </li>
-                        <li class="mobile__submenu-item"><a href="#" class="mobile__submenu-link">Пищевые
+                        <li class="mobile__submenu-item"><a href="./contracts.php" class="mobile__submenu-link">Пищевые
                                 аэрозоли</a>
                         </li>
-                        <li class="mobile__submenu-item"><a href="#" class="mobile__submenu-link">Косметическая
+                        <li class="mobile__submenu-item"><a href="./contracts.php" class="mobile__submenu-link">Косметическая
                                 продукция</a>
                         </li>
-                        <li class="mobile__submenu-item"><a href="#" class="mobile__submenu-link">Краски
+                        <li class="mobile__submenu-item"><a href="./contracts.php" class="mobile__submenu-link">Краски
                                 аэрозольные</a>
                         </li>
                     </ul>
@@ -28,16 +28,16 @@
                 <li class="mobile__menu-item"><a href="./trademarks.php" class="mobile__menu-link">Собственные
                         марки</a>
                     <ul class="mobile__submenu-list">
-                        <li class="mobile__submenu-item"><a href="#" class="mobile__submenu-link">Автохимия
+                        <li class="mobile__submenu-item"><a href="./ag-tech.php" class="mobile__submenu-link">Автохимия
                                 AG-Tech</a>
                         </li>
-                        <li class="mobile__submenu-item"><a href="#" class="mobile__submenu-link">Автохимия AP</a>
+                        <li class="mobile__submenu-item"><a href="./ag-tech.php" class="mobile__submenu-link">Автохимия AP</a>
                         </li>
 
                     </ul>
                 </li>
-                <li class="mobile__menu-item"><a href="#" class="mobile__menu-link">Новости</a></li>
-                <li class="mobile__menu-item"><a href="#" class="mobile__menu-link">Контакты</a></li>
+                <li class="mobile__menu-item"><a href="./fdfdf." class="mobile__menu-link">Новости</a></li>
+                <li class="mobile__menu-item"><a href="./contacts.php" class="mobile__menu-link">Контакты</a></li>
             </ul>
         </div>
         <hr class="divider-line divider-line--mobile">

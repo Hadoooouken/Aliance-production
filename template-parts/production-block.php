@@ -9,7 +9,7 @@
         ?>
         <ul class="card__list">
             <li class="card__item card__item--product">
-                <a href="./autohimia.php" class="card__item-link">
+                <a href="./autochemistry.php" class="card__item-link">
                     <div class="card__body">
                         <h3 class="card__title">Автомобильная химия</h3>
                         <p class="card__description">Безусловно, сплочённость команды профессионалов позволяет
@@ -21,7 +21,7 @@
                 </a>
             </li>
             <li class="card__item card__item--product">
-                <a href="./autohimia.php" class="card__item-link">
+                <a href="./autochemistry.php" class="card__item-link">
                     <div class="card__body">
                         <h3 class="card__title">Бытовая химия</h3>
                         <p class="card__description">А также стремящиеся вытеснить традиционное производство,
@@ -32,7 +32,7 @@
                 </a>
             </li>
             <li class="card__item card__item--product">
-                <a href="./autohimia.php" class="card__item-link">
+                <a href="./autochemistry.php" class="card__item-link">
                     <div class="card__body">
                         <h3 class="card__title">Дезинфицирующие средства</h3>
                         <p class="card__description">Лишь интерактивные прототипы призваны к ответу.</p>
@@ -42,7 +42,7 @@
                 </a>
             </li>
             <li class="card__item card__item--product">
-                <a href="./autohimia.php" class="card__item-link">
+                <a href="./autochemistry.php" class="card__item-link">
                     <div class="card__body">
                         <h3 class="card__title">Пищевые аэрозоли</h3>
                         <p class="card__description">Безусловно, сплочённость команды профессионалов позволяет
@@ -54,7 +54,7 @@
                 </a>
             </li>
             <li class="card__item card__item--product">
-                <a href="./autohimia.php" class="card__item-link">
+                <a href="./autochemistry.php" class="card__item-link">
                     <div class="card__body">
                         <h3 class="card__title">Косметическая продукция</h3>
                         <p class="card__description">Лишь интерактивные прототипы призваны к ответу.</p>
@@ -64,7 +64,7 @@
                 </a>
             </li>
             <li class="card__item card__item--product">
-                <a href="./autohimia.php" class="card__item-link">
+                <a href="./autochemistry.php" class="card__item-link">
                     <div class="card__body">
                         <h3 class="card__title">Краски аэрозольные</h3>
                         <p class="card__description">А также стремящиеся вытеснить традиционное производство,
