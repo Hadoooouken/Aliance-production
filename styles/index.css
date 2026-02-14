@@ -266,31 +266,23 @@ body {
   line-height: 1.6;
 }
 
+.page-inner {
+  overflow-x: hidden; /* скрываем лишнее */
+  position: relative;
+}
+
+.page-inner .swiper__blog {
+  width: 100vw; /* ширина = ширина экрана */
+  margin-left: 50%;
+  transform: translateX(-50%); /* центрируем */
+}
+
 .swiper {
-  max-width: 1440px;
-  margin-inline: auto;
+  overflow: hidden; /* запрещаем видимость за пределами */
 }
 
 .swiper-wrapper {
   display: flex;
-}
-
-.page-inner {
-  overflow-x: hidden;
-}
-
-.page-inner .swiper__blog {
-  width: 100%;
-  margin-left: calc(-50vw + 50%);
-  margin-right: calc(-50vw + 50%);
-}
-
-.page-inner .swiper {
-  overflow: visible;
-}
-
-.page-inner .swiper-wrapper {
-  overflow: visible;
 }
 
 .page-inner .blog-card__footer {
