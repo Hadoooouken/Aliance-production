@@ -181,7 +181,7 @@ body {
 
 .header__nav-button {
   /* height: 100%; */
-  height: calc(100% + px);
+  height: calc(100% + 2px);
 }
 
 .header__button {
