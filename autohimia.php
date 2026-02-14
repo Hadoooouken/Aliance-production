@@ -124,104 +124,99 @@ include_once('./template-parts/header-page.php') ?>
                     </p>
                     <ul class="autohim-types__list">
                         <li class="autohim-types__item">
-                            <span class="autohim-types__item-text"><span
-                                    class="autohim-types__dash"></span>Антискотч</span>
+                            <span class="autohim-types__item-text"></span>Антискотч</span>
                         </li>
                         <li class="autohim-types__item">
-                            <span class="autohim-types__item-text"><span class="autohim-types__dash"></span>Многоцелевая
-                                смазка</span>
+                            <span class="autohim-types__item-text"></span>Многоцелевая
+                            смазка</span>
                         </li>
                         <li class="autohim-types__item">
-                            <span class="autohim-types__item-text"><span class="autohim-types__dash"></span>Жидкий
-                                ключ</span>
-                        </li>
-                        <li class="autohim-types__item">
-
-                            <span class="autohim-types__item-text"><span
-                                    class="autohim-types__dash"></span>Высокотемпературная смазка</span>
+                            <span class="autohim-types__item-text"></span>Жидкий
+                            ключ</span>
                         </li>
                         <li class="autohim-types__item">
 
-                            <span class="autohim-types__item-text"><span
-                                    class="autohim-types__dash"></span>Универсальный очиститель деталей
+                            <span class="autohim-types__item-text"></span>Высокотемпературная смазка</span>
+                        </li>
+                        <li class="autohim-types__item">
+                            <span class="autohim-types__item-text">Универсальный очиститель деталей
                             </span>
                         </li>
                         <li class="autohim-types__item">
 
-                            <span class="autohim-types__item-text"><span class="autohim-types__dash"></span>Силиконовая
-                                смазка</span>
+                            <span class="autohim-types__item-text"></span>Силиконовая
+                            смазка</span>
                         </li>
                         <li class="autohim-types__item">
 
-                            <span class="autohim-types__item-text"><span class="autohim-types__dash"></span>Цепная
-                                смазка</span>
+                            <span class="autohim-types__item-text"></span>Цепная
+                            смазка</span>
                         </li>
                         <li class="autohim-types__item">
 
-                            <span class="autohim-types__item-text"><span class="autohim-types__dash"></span>Медная
-                                смазка
+                            <span class="autohim-types__item-text"></span>Медная
+                            смазка
                             </span>
                         </li>
                         <li class="autohim-types__item">
-                            <span class="autohim-types__item-text"><span class="autohim-types__dash"></span>Графитовая
-                                смазка
+                            <span class="autohim-types__item-text"></span>Графитовая
+                            смазка
                             </span>
                         </li>
                         <li class="autohim-types__item">
                             <span class="autohim-types__item-text">
-                                <span class="autohim-types__dash"></span>Очиститель кондиционера пенный
+                                Очиститель кондиционера пенный
                             </span>
                         </li>
                         <li class="autohim-types__item">
-                            <span class="autohim-types__item-text"><span class="autohim-types__dash"></span>Очиститель
-                                тормозных дисков</span>
+                            <span class="autohim-types__item-text"></span>Очиститель
+                            тормозных дисков</span>
                         </li>
                         <li class="autohim-types__item">
 
-                            <span class="autohim-types__item-text"><span class="autohim-types__dash"></span>Очиститель
-                                битумных пятен
+                            <span class="autohim-types__item-text"></span>Очиститель
+                            битумных пятен
                             </span>
                         </li>
                         <li class="autohim-types__item">
 
-                            <span class="autohim-types__item-text"><span class="autohim-types__dash"></span>Очиститель
-                                кондционера
+                            <span class="autohim-types__item-text"></span>Очиститель
+                            кондционера
                             </span>
                         </li>
                         <li class="autohim-types__item">
                             <span class="autohim-types__item-text">
-                                <span class="autohim-types__dash"></span>Очиститель дросельной заслонки
+                                Очиститель дросельной заслонки
                             </span>
                         </li>
                         <li class="autohim-types__item">
-                            <span class="autohim-types__item-text"><span class="autohim-types__dash"></span>Очиститель
-                                обивки
+                            <span class="autohim-types__item-text"></span>Очиститель
+                            обивки
                             </span>
                         </li>
                         <li class="autohim-types__item">
-                            <span class="autohim-types__item-text"><span class="autohim-types__dash"></span>Тефлоновая
-                                смазка</span>
+                            <span class="autohim-types__item-text"></span>Тефлоновая
+                            смазка</span>
                         </li>
                         <li class="autohim-types__item">
 
-                            <span class="autohim-types__item-text"><span class="autohim-types__dash"></span>Очиститель
-                                двигателя
+                            <span class="autohim-types__item-text"></span>Очиститель
+                            двигателя
                             </span>
                         </li>
                         <li class="autohim-types__item">
 
-                            <span class="autohim-types__item-text"><span
-                                    class="autohim-types__dash"></span>Универсальный очиститель
+                            <span class="autohim-types__item-text"></span>Универсальный очиститель
                             </span>
                         </li>
                         <li class="autohim-types__item">
-                            <span class="autohim-types__item-text"><span class="autohim-types__dash"></span>Чернитель
-                                шин
+                            <span class="autohim-types__item-text"></span>Чернитель
+                            шин
                             </span>
                         </li>
                         <li class="autohim-types__item">
-                            <span class="autohim-types__item-text"><span class="autohim-types__dash"></span>Чернитель
-                                шин + очистка
+                            <span class="autohim-types__item-text"></span>Чернитель
+                            шин + очистка
                             </span>
                         </li>
                     </ul>

@@ -14,7 +14,7 @@
     </address>
 
     <div class="socials socials--mobile">
-        <a href="#"><img class="contacts__icon" src="./images/icon-mobile/vk-icon.svg" alt="ВКонтакте"></a>
-        <a href="#"><img class="contacts__icon" src="./images/icon-mobile/instagramm-icon.svg" alt="Instagram"></a>
+        <a href="#" class="contacts__icon"><svg width="24" height="24"><use href="images/sprites.svg#vk"></use></svg></a>
+          <a href="#"><svg width="24" height="24"><use href="images/sprites.svg#instagram"></use></svg></a>
     </div>
 </div>

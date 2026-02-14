@@ -47,8 +47,7 @@
     <div class="container">
         <div class="footer__wrapper">
             <div class="footer__legal">
-                <p class="footer__copyright">&#169;
-                    <?php echo date('d.m.Y') ?> «Aliance Production». Все права защищены.
+                <p class="footer__copyright">&#169; 2022 «Aliance Production». Все права защищены.
                 </p>
                 <a href="./privacy-policy.php" class="footer__policy">Политики конфиденциальности</a>
             </div>

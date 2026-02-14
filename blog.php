@@ -9,111 +9,113 @@ include_once('./template-parts/body.php');
 include_once('./template-parts/header-page.php'); ?>
 <main class="main--inner">
     <?php include_once('./template-parts/page-hero.php'); ?>
-    <div class="container">
-        <div class="blog__wrapper">
-            <ul class="blog-card__list">
-                <li class="">
-                    <a href="" class="blog-card">
-                        <h3 class="blog-card__title">Современная методология разработки одухотворила всех причастных
-                        </h3>
-                        <p class="blog-card__description">Действия представителей оппозиции, превозмогая сложившуюся
-                            непростую экономическую ситуацию, в равной степени предоставлены...</p>
-                        <img src="./images/blog/1.jpg" alt="" class="blog-card__image" loading="lazy">
-                    </a>
-                </li>
-                <li class="">
-                    <a href="" class="blog-card">
-                        <h3 class="blog-card__title">Сложно сказать, почему жизнь прекрасна
-                        </h3>
-                        <p class="blog-card__description">Сложно сказать, почему элементы политического процесса
-                            функционально разнесены на независимые элементы. Безусловно, высокотехнологичная...</p>
-                        <img src="./images/blog/2.jpg" alt="" class="blog-card__image" loading="lazy">
-                    </a>
-                </li>
-                <li class="">
-                    <a href="" class="blog-card">
-                        <h3 class="blog-card__title">Сложно сказать, почему жизнь прекрасна
-                        </h3>
-                        <p class="blog-card__description">Сложно сказать, почему элементы политического процесса
-                            функционально разнесены на независимые элементы. Безусловно, высокотехнологичная...</p>
-                        <img src="./images/blog/2.jpg" alt="" class="blog-card__image" loading="lazy">
-                    </a>
-                </li>
-                <li class="">
-                    <a href="" class="blog-card">
-                        <h3 class="blog-card__title">Современная методология разработки одухотворила всех причастных
-                        </h3>
-                        <p class="blog-card__description">Действия представителей оппозиции, превозмогая сложившуюся
-                            непростую экономическую ситуацию, в равной степени предоставлены...</p>
-                        <img src="./images/blog/1.jpg" alt="" class="blog-card__image" loading="lazy">
-                    </a>
-                </li>
-                <li class="">
-                    <a href="" class="blog-card">
-                        <h3 class="blog-card__title">Современная методология разработки одухотворила всех причастных
-                        </h3>
-                        <p class="blog-card__description">Действия представителей оппозиции, превозмогая сложившуюся
-                            непростую экономическую ситуацию, в равной степени предоставлены...</p>
-                        <img src="./images/blog/1.jpg" alt="" class="blog-card__image" loading="lazy">
-                    </a>
-                </li>
-                <li class="">
-                    <a href="" class="blog-card">
-                        <h3 class="blog-card__title">Сложно сказать, почему жизнь прекрасна
-                        </h3>
-                        <p class="blog-card__description">Сложно сказать, почему элементы политического процесса
-                            функционально разнесены на независимые элементы. Безусловно, высокотехнологичная...</p>
-                        <img src="./images/blog/2.jpg" alt="" class="blog-card__image" loading="lazy">
-                    </a>
-                </li>
-                <li class="">
-                    <a href="" class="blog-card">
-                        <h3 class="blog-card__title">Сложно сказать, почему жизнь прекрасна
-                        </h3>
-                        <p class="blog-card__description">Сложно сказать, почему элементы политического процесса
-                            функционально разнесены на независимые элементы. Безусловно, высокотехнологичная...</p>
-                        <img src="./images/blog/2.jpg" alt="" class="blog-card__image" loading="lazy">
-                    </a>
-                </li>
-                <li class="">
-                    <a href="" class="blog-card">
-                        <h3 class="blog-card__title">Современная методология разработки одухотворила всех причастных
-                        </h3>
-                        <p class="blog-card__description">Действия представителей оппозиции, превозмогая сложившуюся
-                            непростую экономическую ситуацию, в равной степени предоставлены...</p>
-                        <img src="./images/blog/1.jpg" alt="" class="blog-card__image" loading="lazy">
-                    </a>
-                </li>
-                <li class="">
-                    <a href="" class="blog-card">
-                        <h3 class="blog-card__title">Современная методология разработки одухотворила всех причастных
-                        </h3>
-                        <p class="blog-card__description">Действия представителей оппозиции, превозмогая сложившуюся
-                            непростую экономическую ситуацию, в равной степени предоставлены...</p>
-                        <img src="./images/blog/1.jpg" alt="" class="blog-card__image" loading="lazy">
-                    </a>
-                </li>
-                <li class="">
-                    <a href="" class="blog-card">
-                        <h3 class="blog-card__title">Сложно сказать, почему жизнь прекрасна
-                        </h3>
-                        <p class="blog-card__description">Сложно сказать, почему элементы политического процесса
-                            функционально разнесены на независимые элементы. Безусловно, высокотехнологичная...</p>
-                        <img src="./images/blog/2.jpg" alt="" class="blog-card__image" loading="lazy">
-                    </a>
-                </li>
-            </ul>
-            <nav class="pagination">
-                <ul class="pagination__list">
-                    <li><a href="#" class="pagination__link pagination__link--active">1</a></li>
-                    <li><a href="#" class="pagination__link">2</a></li>
-                    <li><a href="#" class="pagination__link">3</a></li>
-                    <li><a href="#" class="pagination__link">4</a></li>
-                    <li><a href="#" class="pagination__link">5</a></li>
+    <section class="section blog-page">
+        <div class="container">
+            <div class="blog__wrapper">
+                <ul class="blog-card__list">
+                    <li class="">
+                        <a href="./blog-more.php" class="blog-card">
+                            <h3 class="blog-card__title">Современная методология разработки одухотворила всех причастных
+                            </h3>
+                            <p class="blog-card__description">Действия представителей оппозиции, превозмогая сложившуюся
+                                непростую экономическую ситуацию, в равной степени предоставлены...</p>
+                            <img src="./images/blog/1.jpg" alt="" class="blog-card__image" loading="lazy">
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="" class="blog-card">
+                            <h3 class="blog-card__title">Сложно сказать, почему жизнь прекрасна
+                            </h3>
+                            <p class="blog-card__description">Сложно сказать, почему элементы политического процесса
+                                функционально разнесены на независимые элементы. Безусловно, высокотехнологичная...</p>
+                            <img src="./images/blog/2.jpg" alt="" class="blog-card__image" loading="lazy">
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="" class="blog-card">
+                            <h3 class="blog-card__title">Сложно сказать, почему жизнь прекрасна
+                            </h3>
+                            <p class="blog-card__description">Сложно сказать, почему элементы политического процесса
+                                функционально разнесены на независимые элементы. Безусловно, высокотехнологичная...</p>
+                            <img src="./images/blog/2.jpg" alt="" class="blog-card__image" loading="lazy">
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="" class="blog-card">
+                            <h3 class="blog-card__title">Современная методология разработки одухотворила всех причастных
+                            </h3>
+                            <p class="blog-card__description">Действия представителей оппозиции, превозмогая сложившуюся
+                                непростую экономическую ситуацию, в равной степени предоставлены...</p>
+                            <img src="./images/blog/1.jpg" alt="" class="blog-card__image" loading="lazy">
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="" class="blog-card">
+                            <h3 class="blog-card__title">Современная методология разработки одухотворила всех причастных
+                            </h3>
+                            <p class="blog-card__description">Действия представителей оппозиции, превозмогая сложившуюся
+                                непростую экономическую ситуацию, в равной степени предоставлены...</p>
+                            <img src="./images/blog/1.jpg" alt="" class="blog-card__image" loading="lazy">
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="" class="blog-card">
+                            <h3 class="blog-card__title">Сложно сказать, почему жизнь прекрасна
+                            </h3>
+                            <p class="blog-card__description">Сложно сказать, почему элементы политического процесса
+                                функционально разнесены на независимые элементы. Безусловно, высокотехнологичная...</p>
+                            <img src="./images/blog/2.jpg" alt="" class="blog-card__image" loading="lazy">
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="" class="blog-card">
+                            <h3 class="blog-card__title">Сложно сказать, почему жизнь прекрасна
+                            </h3>
+                            <p class="blog-card__description">Сложно сказать, почему элементы политического процесса
+                                функционально разнесены на независимые элементы. Безусловно, высокотехнологичная...</p>
+                            <img src="./images/blog/2.jpg" alt="" class="blog-card__image" loading="lazy">
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="" class="blog-card">
+                            <h3 class="blog-card__title">Современная методология разработки одухотворила всех причастных
+                            </h3>
+                            <p class="blog-card__description">Действия представителей оппозиции, превозмогая сложившуюся
+                                непростую экономическую ситуацию, в равной степени предоставлены...</p>
+                            <img src="./images/blog/1.jpg" alt="" class="blog-card__image" loading="lazy">
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="" class="blog-card">
+                            <h3 class="blog-card__title">Современная методология разработки одухотворила всех причастных
+                            </h3>
+                            <p class="blog-card__description">Действия представителей оппозиции, превозмогая сложившуюся
+                                непростую экономическую ситуацию, в равной степени предоставлены...</p>
+                            <img src="./images/blog/1.jpg" alt="" class="blog-card__image" loading="lazy">
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="" class="blog-card">
+                            <h3 class="blog-card__title">Сложно сказать, почему жизнь прекрасна
+                            </h3>
+                            <p class="blog-card__description">Сложно сказать, почему элементы политического процесса
+                                функционально разнесены на независимые элементы. Безусловно, высокотехнологичная...</p>
+                            <img src="./images/blog/2.jpg" alt="" class="blog-card__image" loading="lazy">
+                        </a>
+                    </li>
                 </ul>
-            </nav>
+                <nav class="pagination">
+                    <ul class="pagination__list">
+                        <li><a href="#" class="pagination__link pagination__link--active">1</a></li>
+                        <li><a href="#" class="pagination__link">2</a></li>
+                        <li><a href="#" class="pagination__link">3</a></li>
+                        <li><a href="#" class="pagination__link">4</a></li>
+                        <li><a href="#" class="pagination__link">5</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
-    </div>
+    </section>
 
     <?php include_once('./template-parts/cta.php'); ?>
 </main>

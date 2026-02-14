@@ -3,7 +3,6 @@ const modalSuccess = document.querySelector('.modal--success')
 const openModalButtons = document.querySelectorAll('[data-js-header-modal-button]')
 const modals = document.querySelectorAll('.modal');
 const closeModalButtons = document.querySelectorAll('[data-js-header-close-modal-button]');
-console.log(openModalButtons);
 const navbar = document.querySelector('.header__navbar')
 const logoLight = document.querySelector('.logo__svg--light')
 const logoDark = document.querySelector('.logo__svg--dark')
@@ -17,6 +16,8 @@ const mobileOverlay = document.querySelector('[data-js-header-overlay]')
 const forms = document.querySelectorAll('form')
 
 const mapWrapper = document.querySelector('.map__wrapper')
+
+
 
 
 
@@ -42,13 +43,13 @@ const closeModalClickOnOverlay = (evt) => {
 
 const openModal = (modal) => {
     modal.classList.add('is-open');
-     document.body.classList.add('is-lock')
+    document.body.classList.add('is-lock')
     document.addEventListener('keydown', closeModalOnEscape);
 };
 
 const closeModal = (modal) => {
     modal.classList.remove('is-open');
-     document.body.classList.remove('is-lock')
+    document.body.classList.remove('is-lock')
     document.removeEventListener('keydown', closeModalOnEscape);
 };
 
@@ -65,7 +66,7 @@ forms.forEach((form) => {
                 rule: 'required',
                 errorMessage: "Укажите имя"
             },
-                  {
+            {
                 rule: 'minLength',
                 value: 3,
                 errorMessage: "Минимум 3 символа"
@@ -81,7 +82,7 @@ forms.forEach((form) => {
                 rule: 'required',
                 errorMessage: "Укажите телефон"
             },
-                  {
+            {
                 rule: 'minLength',
                 value: 18,
                 errorMessage: "Минимально 8 чисел"
@@ -161,7 +162,7 @@ window.addEventListener('resize', () => {
 });
 
 window.addEventListener('scroll', () => {
-    window.scrollY > 1 ? changeNavbarHeight(`4.75rem`) : changeNavbarHeight('5.72rem')
+    window.scrollY > 1 ? changeNavbarHeight(`4.625rem`) : changeNavbarHeight('5.875rem')
     if (ismainPage) {
         window.scrollY > 1 ? lightModeOn() : lightModeOff()
     }
