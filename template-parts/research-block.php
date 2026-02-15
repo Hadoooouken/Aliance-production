@@ -23,6 +23,5 @@
             </div>
         </div>
     </div>
-    <?php $slider_variant = 'blog-slider--fullwidth';
-    include_once('./template-parts/blog-swiper-block.php'); ?>
+    <?php include_once('./template-parts/blog-swiper-block-full.php'); ?>
 </section>

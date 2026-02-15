@@ -249,33 +249,91 @@ const swiperSteps = new Swiper('.swiper__steps', {
     },
 });
 
+// const swiperBlog = new Swiper('.swiper__blog', {
+
+//     slidesPerView: 1,
+//     spaceBetween: 30,
+//     breakpoints: {
+//         370: {
+//             slidesPerView: 1,
+//             spaceBetween: 0,
+//         },
+//         768: {
+//             spaceBetween: 30,
+
+//         },
+//         1000: {
+//             spaceBetween: 30,
+//             slidesPerView: 2,
+//         },
+//     },
+//     speed: 400,
+//     autoHeight: false,
+//     loop: true,
+//     loopedSlides: 2,
+//     navigation: {
+//         nextEl: '.js-slider-blog-next',
+//         prevEl: '.js-slider-blog-prev',
+//     },
+// });
+
 const swiperBlog = new Swiper('.swiper__blog', {
-
-    slidesPerView: 1,
-    spaceBetween: 30,
+    slidesPerView: 'auto',
+    speed: 400,
+    spaceBetween: 10,
+    autoHeight: false,
     breakpoints: {
-        370: {
-            slidesPerView: 1,
-            spaceBetween: 0,
-        },
         768: {
+            slidesPerView: 1,   // на планшете 1 слайд
             spaceBetween: 30,
-
         },
         1000: {
+            slidesPerView: 2,   // на десктопе 2 слайда
             spaceBetween: 30,
-            slidesPerView: 2,
         },
+
     },
-    speed: 400,
-    autoHeight: false,
-    loop: true,
-    loopedSlides: 2,
+    observer: true,         // следит за изменениями DOM
+    observeParents: true,   // следит за родителями
+
     navigation: {
         nextEl: '.js-slider-blog-next',
         prevEl: '.js-slider-blog-prev',
     },
+
 });
+
+const swiperBlogFull = new Swiper('.swiper__blog-fullwv', {
+    slidesPerView: 'auto',
+    speed: 400,
+    spaceBetween: 10,
+    autoHeight: false,
+    breakpoints: {
+        768: {
+            slidesPerView: 1,   // на планшете 1 слайд
+            spaceBetween: 30,
+        },
+        1000: {
+            slidesPerView: 2,   // на десктопе 2 слайда
+            spaceBetween: 30,
+        },
+
+        1460: {
+              slidesPerView: 3,   // на десктопе 2 слайда
+            spaceBetween: 30,
+        }
+
+    },
+    observer: true,         // следит за изменениями DOM
+    observeParents: true,   // следит за родителями
+
+    navigation: {
+        nextEl: '.js-slider-blog-next',
+        prevEl: '.js-slider-blog-prev',
+    },
+
+});
+
 
 
 

@@ -2,6 +2,7 @@
 $page_title = "Автохимия AG-Tech";
 $header_style = "hero--gray";
 $breadcrumb_color = "breadcrumb__item";
+$breadcrumb_middle = "Собственные торговые марки";
 $page_class = 'page-inner';
 include_once('./template-parts/head.php');
 include_once('./template-parts/body.php');

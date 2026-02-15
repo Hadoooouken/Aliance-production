@@ -4,6 +4,7 @@ $header_style = "hero--image";
 $breadcrumb_color = "breadcrumb__item--light";
 $page_title_color = "hero__title--light ";
 $page_class = 'page-inner page-blog';
+$breadcrumb_middle = 'Блог';
 include_once('./template-parts/head.php');
 include_once('./template-parts/body.php');
 include_once('./template-parts/header-page.php'); ?>
@@ -169,11 +170,12 @@ include_once('./template-parts/header-page.php'); ?>
         </div>
     </section>
     <section class="section blog-interesting section--spaced-lg">
-        <div class="container">
-            <div class="separator"></div>
-            <h2 class="section__title">Так же вас может заинтересовать:</h2>
-            <?php include_once('./template-parts/blog-swiper-block.php') ?>
+
+        <div class="separator"></div>
+        <h2 class="section__title">Так же вас может заинтересовать:</h2>
+        <?php include_once('./template-parts/blog-swiper-block.php') ?>
         </div>
+
     </section>
 
     <?php include_once('./template-parts/cta.php'); ?>
@@ -181,3 +183,5 @@ include_once('./template-parts/header-page.php'); ?>
 <?php include_once('./template-parts/footer.php'); ?>
 <?php include_once('./template-parts/modals.php') ?>
 </body>
+
+<div class="container">

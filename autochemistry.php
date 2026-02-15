@@ -2,6 +2,7 @@
 $page_title = "Автомобильная химия";
 $header_style = "hero--gray";
 $breadcrumb_color = "breadcrumb__item";
+$breadcrumb_middle = "Контрактное производство";
 $page_class = 'page-inner';
 include_once('./template-parts/head.php');
 include_once('./template-parts/body.php');
