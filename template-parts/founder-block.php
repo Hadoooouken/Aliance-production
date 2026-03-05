@@ -1,5 +1,9 @@
 <section class="section founder">
-    <img src="./images/founder-bg.jpg" alt="founder__photo" class="founder__photo" loading="lazy">
+    <picture>
+        <source type="image/webp" srcset="./images/founder-bg.webp">
+        <source type="image/jpeg" srcset="./images/founder-bg.jpg">
+        <img class="founder__photo" src="./images/founder-bg.jpg" alt="Создатель" loading="lazy">
+    </picture>
     <div class="container">
         <div class="founder__content-wrapper">
             <div class="founder__content">

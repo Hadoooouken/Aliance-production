@@ -41,7 +41,12 @@
 
 <div class="modal modal--success">
     <div class="modal__dialog ">
-        <img src="./images/modal-image/thanks_illu.png" alt="">
+        <picture>
+            <source type="image/webp" srcset="./images/modal-image/thanks_illu.png">
+            <source type="image/png" srcset="./images/modal-image/thanks_illu.png">
+            <img src="./images/modal-image/thanks_illu.png" alt="">
+
+        </picture>
         <h2 class="modal__title ">Спасибо за заявку!</h2>
         <button class="modal__close-button" type="button" data-js-header-close-modal-button>
             <svg width="18" height="18">

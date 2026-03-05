@@ -69,31 +69,76 @@
             </div>
             <ul class="clients-logo__list">
                 <li class="clients-logo__item">
-                    <img class="clients-logo__image" src="./images/clients-icon-1.png" alt="" width="70" height="70">
+                    <picture>
+                        <source type="image/webp" srcset="./images/clients-icon-1.webp">
+                        <source type="image/png" srcset="./images/clients-icon-1.png">
+                        <img class="clients-logo__image" src="./images/clients-icon-1.png" alt="" width="70"
+                            height="70">
+                    </picture>
                 </li>
                 <li class="clients-logo__item">
-                    <img class="clients-logo__image" src="./images/clients-icon-1.png" alt="" width="70" height="70">
+                    <picture>
+                        <source type="image/webp" srcset="./images/clients-icon-1.webp">
+                        <source type="image/png" srcset="./images/clients-icon-1.png">
+                        <img class="clients-logo__image" src="./images/clients-icon-1.png" alt="" width="70"
+                            height="70">
+                    </picture>
                 </li>
                 <li class="clients-logo__item">
-                    <img class="clients-logo__image" src="./images/clients-icon-1.png" alt="" width="70" height="70">
+                    <picture>
+                        <source type="image/webp" srcset="./images/clients-icon-1.webp">
+                        <source type="image/png" srcset="./images/clients-icon-1.png">
+                        <img class="clients-logo__image" src="./images/clients-icon-1.png" alt="" width="70"
+                            height="70">
+                    </picture>
                 </li>
                 <li class="clients-logo__item">
-                    <img class="clients-logo__image" src="./images/clients-icon-1.png" alt="" width="70" height="70">
+                    <picture>
+                        <source type="image/webp" srcset="./images/clients-icon-1.webp">
+                        <source type="image/png" srcset="./images/clients-icon-1.png">
+                        <img class="clients-logo__image" src="./images/clients-icon-1.png" alt="" width="70"
+                            height="70">
+                    </picture>
                 </li>
                 <li class="clients-logo__item">
-                    <img class="clients-logo__image" src="./images/clients-icon-1.png" alt="" width="70" height="70">
+                    <picture>
+                        <source type="image/webp" srcset="./images/clients-icon-1.webp">
+                        <source type="image/png" srcset="./images/clients-icon-1.png">
+                        <img class="clients-logo__image" src="./images/clients-icon-1.png" alt="" width="70"
+                            height="70">
+                    </picture>
                 </li>
                 <li class="clients-logo__item">
-                    <img class="clients-logo__image" src="./images/clients-icon-1.png" alt="" width="70" height="70">
+                    <picture>
+                        <source type="image/webp" srcset="./images/clients-icon-1.webp">
+                        <source type="image/png" srcset="./images/clients-icon-1.png">
+                        <img class="clients-logo__image" src="./images/clients-icon-1.png" alt="" width="70"
+                            height="70">
+                    </picture>
                 </li>
                 <li class="clients-logo__item">
-                    <img class="clients-logo__image" src="./images/clients-icon-1.png" alt="" width="70" height="70">
+                    <picture>
+                        <source type="image/webp" srcset="./images/clients-icon-1.webp">
+                        <source type="image/png" srcset="./images/clients-icon-1.png">
+                        <img class="clients-logo__image" src="./images/clients-icon-1.png" alt="" width="70"
+                            height="70">
+                    </picture>
                 </li>
                 <li class="clients-logo__item">
-                    <img class="clients-logo__image" src="./images/clients-icon-1.png" alt="" width="70" height="70">
+                    <picture>
+                        <source type="image/webp" srcset="./images/clients-icon-1.webp">
+                        <source type="image/png" srcset="./images/clients-icon-1.png">
+                        <img class="clients-logo__image" src="./images/clients-icon-1.png" alt="" width="70"
+                            height="70">
+                    </picture>
                 </li>
                 <li class="clients-logo__item">
-                    <img class="clients-logo__image" src="./images/clients-icon-1.png" alt="" width="70" height="70">
+                    <picture>
+                        <source type="image/webp" srcset="./images/clients-icon-1.webp">
+                        <source type="image/png" srcset="./images/clients-icon-1.png">
+                        <img class="clients-logo__image" src="./images/clients-icon-1.png" alt="" width="70"
+                            height="70">
+                    </picture>
                 </li>
             </ul>
         </div>

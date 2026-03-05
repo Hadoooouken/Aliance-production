@@ -1,6 +1,10 @@
 <section class="section cta">
     <div class="background-grey section__cta">
-        <img class="cta__image" src="./images/cta-img.png" alt="" loading="lazy">
+        <picture>
+            <source type="image/webp" srcset="./images/cta-img.webp">
+            <source type="image/png" srcset="./images/cta-img.png">
+            <img class="cta__image" src="./images/cta-img.png" alt="" loading="lazy">
+        </picture>
         <div class="cta__form-wrapper container">
             <form action="./src/handler.php" method="POST" class="cta__form">
                 <h2 class="section__title cta__title">Хотите сотрудничать?</h2>
@@ -8,13 +12,13 @@
                     ответит на все интересующие вопросы и поможем даже в самых сложных случаях!</p>
                 <div class="input__group-wrapper">
                     <div class="input__group">
-                        <input type="text" class="input__group-input" id="user-name" name="username" placeholder=" " maxlength="100"
-                            required>
+                        <input type="text" class="input__group-input" id="user-name" name="username" placeholder=" "
+                            maxlength="100" required>
                         <label class="input__group-label" for="user-name">Имя</label>
                     </div>
                     <div class="input__group">
-                        <input id="user-phone" type="tel" class="input__group-input phone-mask" name="userphone" placeholder=" " maxlength="30"
-                            required>
+                        <input id="user-phone" type="tel" class="input__group-input phone-mask" name="userphone"
+                            placeholder=" " maxlength="30" required>
                         <label class="input__group-label" for="user-phone">Номер
                             телефона</label>
                     </div>

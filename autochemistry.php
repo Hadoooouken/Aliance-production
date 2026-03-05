@@ -12,8 +12,13 @@ include_once('./template-parts/header-page.php') ?>
     <section class="section autohim-contract">
         <div class="container">
             <div class="autohim-contract__wrapper">
-                <img class="autohim-contract__image" src="./images/autohim/autohim-1.jpg" alt="" width="600"
-                    height="750">
+                <picture>
+                    <source type="image/webp" srcset="./images/autohim/autohim-1.webp">
+                    <source type="image/jpg" srcset="./images/autohim/autohim-1.jpg">
+                    <img class="autohim-contract__image" src="./images/autohim/autohim-1.jpg" alt="" width="600"
+                        height="750">
+                </picture>
+
                 <div class="autohim-contract__content">
                     <div class="separator"></div>
                     <h2 class="section__title autohim-contract__title">Контрактное производство автомобильной химии</h2>
@@ -109,7 +114,13 @@ include_once('./template-parts/header-page.php') ?>
                     </ul>
                 </div>
             </div>
-            <img class="autohim-production__image" src="./images/autohim/autohim-2.jpg" alt="" width="840" height="660">
+            <picture>
+                <source type="image/webp" srcset="./images/autohim/autohim-2.webp">
+                <source type="image/jpg" srcset="./images/autohim/autohim-2.jpg">
+                <img class="autohim-production__image" src="./images/autohim/autohim-2.jpg" alt="" width="840"
+                    height="660">
+            </picture>
+
         </div>
     </section>
     <section class="section autohim-types">

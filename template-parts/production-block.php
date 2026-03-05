@@ -16,8 +16,13 @@
                             оценить
                             значение форм воздействия.</p>
                     </div>
-                    <img class="card__image" src="./images/cards-image/1.png" alt="Автомобильная химия" width="478"
-                        height="300" loading="lazy">
+                    <picture>
+                        <source type="image/webp" srcset="./images/cards-image/1.webp">
+                        <source type="image/png" srcset="./images/cards-image/1.png">
+                        <img class="card__image" src="./images/cards-image/1.png" alt="Автомобильная химия" width="478"
+                            height="300" loading="lazy">
+                    </picture>
+
                 </a>
             </li>
             <li class="card__item card__item--product">
@@ -27,9 +32,15 @@
                         <p class="card__description">А также стремящиеся вытеснить традиционное производство,
                             нанотехнологии функционально разнесены на независимые элементы.</p>
                     </div>
-                    <img class="card__image" src="./images/cards-image/2.png" alt="Бытовая химия" width="478"
-                        height="300" loading="lazy">
+                    <picture>
+                        <source type="image/webp" srcset="./images/cards-image/2.webp">
+                        <source type="image/png" srcset="./images/cards-image/2.png">
+                        <img class="card__image" src="./images/cards-image/2.png" alt="Бытовая химия" width="478"
+                            height="300" loading="lazy">
+                    </picture>
                 </a>
+
+
             </li>
             <li class="card__item card__item--product">
                 <a href="./autochemistry.php" class="card__item-link">
@@ -37,8 +48,13 @@
                         <h3 class="card__title">Дезинфицирующие средства</h3>
                         <p class="card__description">Лишь интерактивные прототипы призваны к ответу.</p>
                     </div>
-                    <img class="card__image" src="./images/cards-image/3.png" alt="Дезинфицирующие средства" width="478"
-                        height="300" loading="lazy">
+                    <picture>
+                        <source type="image/webp" srcset="./images/cards-image/3.webp">
+                        <source type="image/png" srcset="./images/cards-image/3.png">
+                        <img class="card__image" src="./images/cards-image/3.png" alt="Дезинфицирующие средства"
+                            width="478" height="300" loading="lazy">
+                    </picture>
+
                 </a>
             </li>
             <li class="card__item card__item--product">
@@ -49,8 +65,13 @@
                             оценить
                             значение форм воздействия.</p>
                     </div>
-                    <img class="card__image" src="./images/cards-image/3.png" alt="Пищевые аэрозоли" width="478"
-                        height="300" loading="lazy">
+                    <picture>
+                        <source type="image/webp" srcset="./images/cards-image/4.webp">
+                        <source type="image/png" srcset="./images/cards-image/4.png">
+                        <img class="card__image" src="./images/cards-image/4.png" alt="Пищевые аэрозоли" width="478"
+                            height="300" loading="lazy">
+                    </picture>
+
                 </a>
             </li>
             <li class="card__item card__item--product">
@@ -59,8 +80,13 @@
                         <h3 class="card__title">Косметическая продукция</h3>
                         <p class="card__description">Лишь интерактивные прототипы призваны к ответу.</p>
                     </div>
-                    <img class="card__image" src="./images/cards-image/4.png" alt="Косметическая продукция" width="478"
-                        height="300" loading="lazy">
+                    <picture>
+                        <source type="image/webp" srcset="./images/cards-image/4.webp">
+                        <source type="image/png" srcset="./images/cards-image/4.png">
+                        <img class="card__image" src="./images/cards-image/4.png" alt="Косметическая продукция"
+                            width="478" height="300" loading="lazy">
+                    </picture>
+
                 </a>
             </li>
             <li class="card__item card__item--product">
@@ -70,8 +96,14 @@
                         <p class="card__description">А также стремящиеся вытеснить традиционное производство,
                             нанотехнологии функционально разнесены на независимые элементы.</p>
                     </div>
-                    <img class="card__image" src="./images/cards-image/5.png" alt="Краски аэрозольные" width="478"
-                        height="300" loading="lazy">
+                    <picture>
+                        <source type="image/webp" srcset="./images/cards-image/5.webp">
+                        <source type="image/png" srcset="./images/cards-image/5.png">
+                        <img class="card__image" src="./images/cards-image/5.png" alt="Краски аэрозольные" width="478"
+                            height="300" loading="lazy">
+                    </picture>
+
+
                 </a>
             </li>
         </ul>

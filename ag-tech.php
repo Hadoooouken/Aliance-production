@@ -12,7 +12,12 @@ include_once('./template-parts/header-page.php') ?>
     <section class="section autohim-contract autohim-contract--distributor">
         <div class="container">
             <div class="autohim-contract__wrapper">
-                <img class="autohim-contract__image" src="./images/ag-tech/1.jpg" alt="" width="600" height="750">
+                <picture class="autohim-contract__image">
+                    <source type="image/webp" srcset="./images/ag-tech/1.webp">
+                    <source type="image/jpeg" srcset="./images/ag-tech/1.jpg">
+                    <img class="autohim-contract__image" src="./images/ag-tech/1.jpg" alt="" width="600" height="750">
+                </picture>
+
                 <div class="autohim-contract__content">
                     <div class="separator"></div>
                     <h2 class="section__title autohim-contract__title">Собственное производство автохимия AG-Tech</h2>
@@ -87,7 +92,13 @@ include_once('./template-parts/header-page.php') ?>
                     Скачать каталог
                 </a>
             </div>
-            <img src="./images/ag-tech/2.png" alt="" class="distributor__image" loading="lazy" width="960" height="676">
+            <picture>
+                <source type="image/webp" srcset="./images/ag-tech/2.webp">
+                <source type="image/png" srcset="./images/ag-tech/2.png">
+                <img src="./images/ag-tech/2.png" alt="" class="distributor__image" loading="lazy" width="960"
+                    height="676">
+            </picture>
+
         </div>
     </section>
 

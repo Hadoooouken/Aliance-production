@@ -10,7 +10,12 @@
                     Действия представителей оппозиции, превозмогая сложившуюся
                     непростую экономическую ситуацию, в равной степени предоставлены...
                 </p>
-                <img src="./images/blog/1.jpg" alt="" class="blog-card__image" loading="lazy">
+                <picture>
+                    <source type="image/webp" srcset="./images/blog/1.webp">
+                    <source type="image/jpg" srcset="./images/blog/1.jpg">
+                    <img src="./images/blog/1.jpg" alt="" class="blog-card__image" loading="lazy">
+
+                </picture>
             </a>
         </div>
 
@@ -23,7 +28,11 @@
                     Сложно сказать, почему элементы политического процесса функционально разнесены на независимые
                     элементы. Безусловно, высокотехнологичная...
                 </p>
-                <img src="./images/blog/2.jpg" alt="" class="blog-card__image" loading="lazy">
+                <picture>
+                    <source type="image/webp" srcset="./images/blog/2.webp">
+                    <source type="image/jpg" srcset="./images/blog/2.jpg">
+                    <img src="./images/blog/2.jpg" alt="" class="blog-card__image" loading="lazy">
+                </picture>
             </a>
         </div>
         <div class="swiper-slide swiper__blog-slide--full">
@@ -35,7 +44,11 @@
                     Действия представителей оппозиции, превозмогая сложившуюся
                     непростую экономическую ситуацию, в равной степени предоставлены...
                 </p>
-                <img src="./images/blog/1.jpg" alt="" class="blog-card__image" loading="lazy">
+                <picture>
+                    <source type="image/webp" srcset="./images/blog/1.webp">
+                    <source type="image/jpg" srcset="./images/blog/1.jpg">
+                    <img src="./images/blog/1.jpg" alt="" class="blog-card__image" loading="lazy">
+                </picture>
             </a>
         </div>
 
@@ -48,7 +61,11 @@
                     Сложно сказать, почему элементы политического процесса функционально разнесены на независимые
                     элементы. Безусловно, высокотехнологичная...
                 </p>
-                <img src="./images/blog/2.jpg" alt="" class="blog-card__image" loading="lazy">
+                <picture>
+                    <source type="image/webp" srcset="./images/blog/2.webp">
+                    <source type="image/jpg" srcset="./images/blog/2.jpg">
+                    <img src="./images/blog/2.jpg" alt="" class="blog-card__image" loading="lazy">
+                </picture>
             </a>
         </div>
         <div class="swiper-slide swiper__blog-slide--full">
@@ -60,7 +77,11 @@
                     Действия представителей оппозиции, превозмогая сложившуюся
                     непростую экономическую ситуацию, в равной степени предоставлены...
                 </p>
-                <img src="./images/blog/1.jpg" alt="" class="blog-card__image" loading="lazy">
+                <picture>
+                    <source type="image/webp" srcset="./images/blog/1.webp">
+                    <source type="image/jpg" srcset="./images/blog/1.jpg">
+                    <img src="./images/blog/1.jpg" alt="" class="blog-card__image" loading="lazy">
+                </picture>
             </a>
         </div>
 
@@ -73,7 +94,11 @@
                     Сложно сказать, почему элементы политического процесса функционально разнесены на независимые
                     элементы. Безусловно, высокотехнологичная...
                 </p>
-                <img src="./images/blog/2.jpg" alt="" class="blog-card__image" loading="lazy">
+                <picture>
+                    <source type="image/webp" srcset="./images/blog/2.webp">
+                    <source type="image/jpg" srcset="./images/blog/2.jpg">
+                    <img src="./images/blog/2.jpg" alt="" class="blog-card__image" loading="lazy">
+                </picture>
             </a>
         </div>
     </div>
