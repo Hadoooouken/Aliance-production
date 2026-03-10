@@ -319,7 +319,7 @@ const swiperBlogFull = new Swiper('.swiper__blog-fullwv', {
         },
 
         1460: {
-              slidesPerView: 3,   // на десктопе 2 слайда
+            slidesPerView: 3,   // на десктопе 2 слайда
             spaceBetween: 30,
         }
 

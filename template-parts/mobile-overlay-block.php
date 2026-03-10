@@ -6,10 +6,12 @@
                 <li class="mobile__menu-item"><a href="./contracts.php" class="mobile__menu-link">Контрактное
                         производство</a>
                     <ul class="mobile__submenu-list">
-                        <li class="mobile__submenu-item"><a href="./contracts.php" class="mobile__submenu-link">Автомобильная
+                        <li class="mobile__submenu-item"><a href="./contracts.php"
+                                class="mobile__submenu-link">Автомобильная
                                 химия</a>
                         </li>
-                        <li class="mobile__submenu-item"><a href="./contracts.php" class="mobile__submenu-link">Бытовая химия</a>
+                        <li class="mobile__submenu-item"><a href="./contracts.php" class="mobile__submenu-link">Бытовая
+                                химия</a>
                         </li>
                         <li class="mobile__submenu-item"><a href="./contracts.php"
                                 class="mobile__submenu-link">Дезинфицирующие&nbsp;средства</a>
@@ -17,7 +19,8 @@
                         <li class="mobile__submenu-item"><a href="./contracts.php" class="mobile__submenu-link">Пищевые
                                 аэрозоли</a>
                         </li>
-                        <li class="mobile__submenu-item"><a href="./contracts.php" class="mobile__submenu-link">Косметическая
+                        <li class="mobile__submenu-item"><a href="./contracts.php"
+                                class="mobile__submenu-link">Косметическая
                                 продукция</a>
                         </li>
                         <li class="mobile__submenu-item"><a href="./contracts.php" class="mobile__submenu-link">Краски
@@ -31,7 +34,8 @@
                         <li class="mobile__submenu-item"><a href="./ag-tech.php" class="mobile__submenu-link">Автохимия
                                 AG-Tech</a>
                         </li>
-                        <li class="mobile__submenu-item"><a href="./ag-tech.php" class="mobile__submenu-link">Автохимия AP</a>
+                        <li class="mobile__submenu-item"><a href="./ag-tech.php" class="mobile__submenu-link">Автохимия
+                                AP</a>
                         </li>
 
                     </ul>
@@ -46,19 +50,22 @@
                 <a class="contacts__phone" href="tel:+74996861014">+7 (499) 686-10-14</a>
                 <address class="contacts__list">
                     <a class="contacts__item" href="#">
-                        <img class="contacts__icon" src="./images/icon-mobile/navigation-licon.svg" alt="">
+                        <img class="contacts__icon" src="./images/icon-mobile/navigation-licon.svg" width="24"
+                            height="24" alt="">
                         <span class="contacts__text">г. Москва, Холодильный пер. 4к1с8</span>
                     </a>
 
                     <a class="contacts__item" href="mailto:a.dragunov@tdaliance.ru">
-                        <img class="contacts__icon" src="./images/icon-mobile/mail-icon.svg" alt="">
+                        <img class="contacts__icon" src="./images/icon-mobile/mail-icon.svg" width="24" height="24"
+                            alt="">
                         <span class="contacts__text">a.dragunov@tdaliance.ru</span>
                     </a>
                 </address>
 
                 <div class="socials socials--mobile">
-                    <a href="#"><img src="./images/icon-mobile/vk-icon.svg" alt="ВКонтакте"></a>
-                    <a href="#"><img src="./images/icon-mobile/instagramm-icon.svg" alt="Instagram"></a>
+                    <a href="#"><img src="./images/icon-mobile/vk-icon.svg" width="24" height="24" alt="ВКонтакте"></a>
+                    <a href="#"><img src="./images/icon-mobile/instagramm-icon.svg" width="24" height="24"
+                            alt="Instagram"></a>
                 </div>
             </div>
         </footer>

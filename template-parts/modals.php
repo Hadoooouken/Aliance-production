@@ -44,7 +44,7 @@
         <picture>
             <source type="image/webp" srcset="./images/modal-image/thanks_illu.png">
             <source type="image/png" srcset="./images/modal-image/thanks_illu.png">
-            <img src="./images/modal-image/thanks_illu.png" alt="">
+            <img src="./images/modal-image/thanks_illu.png" alt="" width="360" height="310">
 
         </picture>
         <h2 class="modal__title ">Спасибо за заявку!</h2>
