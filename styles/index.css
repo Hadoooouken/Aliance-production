@@ -20,8 +20,15 @@ body {
 
 .header__image {
   position: relative;
-  background: url('../images/header-bg.jpg') center / cover no-repeat;
   height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url('../images/header-bg.jpg');
+  background-image: image-set(
+    url('../images/header-bg.webp') type('image/webp'),
+    url('../images/header-bg.jpg') type('image/jpeg')
+  );
 }
 
 .header__image::after {
@@ -1203,11 +1210,15 @@ body.is-lock {
 
 .hero--image {
   position: relative;
-  background-image: url('../images/hero/hero-bg-image.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  z-index: 1;
   background-position: center;
+  z-index: 1;
+  background-image: url('../images/hero/hero-bg-image.jpg');
+  background-image: image-set(
+    url('../images/hero/hero-bg-image.webp') type('image/webp'),
+    url('../images/hero/hero-bg-image.jpg') type('image/jpeg')
+  );
 }
 
 .hero--image::before {
@@ -1253,11 +1264,9 @@ body.is-lock {
 
 .breadcrumb__item {
   display: inline-flex;
-    white-space: nowrap; 
-    align-items: center;
+  white-space: nowrap;
+  align-items: center;
 }
-
-
 
 .breadcrumb__item--light {
   color: #fff;
@@ -1270,12 +1279,11 @@ body.is-lock {
 
 .breadcrumb__item:last-child .breadcrumb__line,
 .breadcrumb__item--light:last-child .breadcrumb__line {
-display: none;
+  display: none;
 }
 
-
 .breadcrumb__line {
-  margin-inline: .625rem;
+  margin-inline: 0.625rem;
 }
 
 .breadcrumb__link {
@@ -1954,11 +1962,11 @@ display: none;
   }
 
   .distributor__content {
-     padding-inline: 15px;
+    padding-inline: 15px;
   }
 
   .research__wrapper {
-     padding-inline: 15px;
+    padding-inline: 15px;
   }
 }
 
