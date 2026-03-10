@@ -1,3 +1,35 @@
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url('../fonts/BebasNeueRegular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Noto Sans';
+  src: url('../fonts/NotoSans-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Noto Sans';
+  src: url('../fonts//NotoSans-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Noto Sans';
+  src: url('../fonts/NotoSans-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
 /**
   Нормализация блочной модели
  */
@@ -475,6 +507,10 @@ body {
 
 .swiper__blog-slide--full {
   width: 44.0625rem !important;
+}
+
+.slider__blog-wrapper--fullwv {
+  padding-inline-end: 20px;
 }
 
 .page-inner .blog-card__footer {
@@ -2141,7 +2177,7 @@ body.is-lock {
   }
 
   .autohim-contract__image {
-    width: 50%;
+    width: 70%;
   }
   .autohim-production__content {
     padding-inline: 15px;
@@ -2555,10 +2591,6 @@ body.is-lock {
 
   .autohim-contract__wrapper {
     margin-block-end: 4rem;
-  }
-
-  .autohim-contract__image {
-    width: 40%;
   }
 
   .hero__content--image {

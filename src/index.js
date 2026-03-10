@@ -249,34 +249,6 @@ const swiperSteps = new Swiper('.swiper__steps', {
     },
 });
 
-// const swiperBlog = new Swiper('.swiper__blog', {
-
-//     slidesPerView: 1,
-//     spaceBetween: 30,
-//     breakpoints: {
-//         370: {
-//             slidesPerView: 1,
-//             spaceBetween: 0,
-//         },
-//         768: {
-//             spaceBetween: 30,
-
-//         },
-//         1000: {
-//             spaceBetween: 30,
-//             slidesPerView: 2,
-//         },
-//     },
-//     speed: 400,
-//     autoHeight: false,
-//     loop: true,
-//     loopedSlides: 2,
-//     navigation: {
-//         nextEl: '.js-slider-blog-next',
-//         prevEl: '.js-slider-blog-prev',
-//     },
-// });
-
 const swiperBlog = new Swiper('.swiper__blog', {
     slidesPerView: 'auto',
     speed: 400,
@@ -319,7 +291,7 @@ const swiperBlogFull = new Swiper('.swiper__blog-fullwv', {
         },
 
         1460: {
-            slidesPerView: 3,   // на десктопе 2 слайда
+              slidesPerView: 3,   // на десктопе 2 слайда
             spaceBetween: 30,
         }
 
@@ -409,18 +381,6 @@ document.addEventListener("input", (e) => {
     }
 });
 
-
-// document.addEventListener("click", (event) => {
-//     if(!modalContent) return
-//     if (
-//         event.target.dataset.toggle === "modal" ||
-//         event.target.parentNode.dataset.toggle === "modal" ||
-//         (!event.composedPath().includes(modalContent) && modal.classList.contains("is-open"))
-//     ) {
-//         event.preventDefault();
-//         modal.classList.toggle("is-open");
-//     }
-// })
 
 
 

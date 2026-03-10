@@ -18,8 +18,7 @@ include_once('./template-parts/header-page.php') ?>
                     <img class="autohim-contract__image" src="./images/autohim/autohim-1.jpg" alt="" width="600"
                         height="750">
                 </picture>
-                <img class="autohim-contract__image" src="./images/autohim/autohim-1.jpg" alt="" width="600"
-                    height="750">
+             
 
                 <div class="autohim-contract__content">
                     <div class="separator"></div>

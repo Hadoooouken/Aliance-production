@@ -109,7 +109,7 @@
         }
         ?>
 
-        <div class="nav-arrows slider__blog-wrapper">
+        <div class="nav-arrows slider__blog-wrapper slider__blog-wrapper--fullwv">
             <button class="nav-arrows__button nav-arrows__button--lg nav-arrows__button--prev js-slider-blog-prev">
                 <svg class="nav-arrows__icon">
                     <use href="./images/sprites.svg#arrow-prev"></use>
