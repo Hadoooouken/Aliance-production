@@ -102,25 +102,27 @@
             </a>
         </div>
     </div>
-    <div class="blog-card__footer">
-        <?php
-        if ($page_class === "main-page") {
-            echo '<a href="./blog.php" class="button__link button__link--blog">Весь блог</a>';
-        }
-        ?>
+    <div class="container">
+        <div class="blog-card__footer">
+            <?php
+            if ($page_class === "main-page") {
+                echo '<a href="./blog.php" class="button__link button__link--blog">Весь блог</a>';
+            }
+            ?>
 
-        <div class="nav-arrows slider__blog-wrapper slider__blog-wrapper--fullwv">
-            <button class="nav-arrows__button nav-arrows__button--lg nav-arrows__button--prev js-slider-blog-prev">
-                <svg class="nav-arrows__icon">
-                    <use href="./images/sprites.svg#arrow-prev"></use>
-                </svg>
-            </button>
+            <div class="nav-arrows slider__blog-wrapper slider__blog-wrapper--fullwv">
+                <button class="nav-arrows__button nav-arrows__button--lg nav-arrows__button--prev js-slider-blog-prev">
+                    <svg class="nav-arrows__icon">
+                        <use href="./images/sprites.svg#arrow-prev"></use>
+                    </svg>
+                </button>
 
-            <button class="nav-arrows__button nav-arrows__button--lg nav-arrows__button--next js-slider-blog-next">
-                <svg class="nav-arrows__icon">
-                    <use href="./images/sprites.svg#arrow-next"></use>
-                </svg>
-            </button>
+                <button class="nav-arrows__button nav-arrows__button--lg nav-arrows__button--next js-slider-blog-next">
+                    <svg class="nav-arrows__icon">
+                        <use href="./images/sprites.svg#arrow-next"></use>
+                    </svg>
+                </button>
+            </div>
         </div>
     </div>
 </div>

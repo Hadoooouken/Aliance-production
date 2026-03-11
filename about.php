@@ -11,7 +11,7 @@ include_once('./template-parts/header-page.php') ?>
     <section class="section experts">
         <div class="container">
             <div class="experts__wrapper">
-                <picture>
+                <picture class="">
                     <source type="image/webp" srcset="./images/about-page-image/experts.webp">
                     <source type="image/jpg" srcset="./images/about-page-image/experts.jpg">
                     <img class="experts__image" src="./images/about-page-image/experts.jpg" alt="" width="480"
@@ -91,7 +91,7 @@ include_once('./template-parts/header-page.php') ?>
                         </li>
                     </ul>
                 </div>
-                <picture>
+                <picture class="experts__picture">
                     <source type="image/webp" srcset="./images/about-page-image/developing.webp">
                     <source type="image/png" srcset="./images/about-page-image/developing.png">
                     <img class="production__image" src="./images/about-page-image/developing.png" alt="" width="600"
