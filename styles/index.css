@@ -2098,6 +2098,9 @@ body.is-lock {
   display: none;
 }
 
+  
+
+
 @media (max-width: 1700px) {
   html {
     font-size: 0.875rem;
@@ -2202,6 +2205,10 @@ body.is-lock {
 
   .experts__wrapper {
     padding-inline: 15px;
+  }
+
+    .slider__blog-wrapper--fullwv {
+      padding-inline-end: 15px;
   }
 }
 
